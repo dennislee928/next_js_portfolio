@@ -1,18 +1,19 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+ 
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+  
+    {
+    id: 3,
+    title: "I am always paying attention to new tech and make them my own weapon ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] color:black",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
+    titleClassName: "justify-en color:black",
     img: "/b1.svg",
     spareImg: "",
   },
@@ -26,20 +27,21 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
+ 
   {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    id: 4,
+    title: "Web3 oboriginal",
+    description: "Some works on akaswap, and reward of Meta hackthon.",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
   },
   {
     id: 4,
-    title: "Love to learn all kinds of tech stuff!",
-    description: "",
+    title: "Education degree:",
+    description: "Bachelor degree:NCCU MIS,Master degree:NCCU DCT",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,12 +51,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Recently building a falsk api server",
+    title: "Building a falsk api server,recently ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/gcp.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -72,36 +74,53 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: " My 2023 port folio",
+    title: " My 2023 portfolio",
     des: "Using React+ three-fiber to create my previous portfolio.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/tail.svg",  "/three.svg", ],
+    link: "https://2023dennislee3dportfolio.netlify.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "dennis-lee-guitar-store",
+    des: "A E-Commerce platform with frontstage(for client side), and backstage(for admin side).",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/re.svg", "/tail.svg",],
+    link: "https://dennis-lee-guitar-store.netlify.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Bloddy mickey joke site",
+    des: "Using Nuxt3 to create a site that mocks mickey mouse",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/vue.svg","/nuxt3.svg","/ts.svg"],
+    link: "",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Pokemon information site",
+    des: "Using Nuxt3 to create a site that fetch complex Pokemon info api and create collapse info cards.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/vue.svg","/nuxt3.svg","/ts.svg"],
+    link: "https://pokemon-7u0.pages.dev/",
   },
+  {
+    id: 5,
+    title: "My 2022 portfolio",
+    des: "A pure three.js ghost house style portfolio.",
+    img: "/p5.svg",
+    iconLists: ["/re.svg", "/tail.svg",  "/three.svg", ],
+    link: "https://dennisleenccudct.github.io/dennisleepersonalwebsite2023/",
+  },
+  {
+    id: 6,
+    title: "Crypto info site",
+    des: "Using coingecko api to create route.push multiple pages website.",
+    img: "/p6.svg",
+    iconLists: ["/re.svg",],
+    link: "https://dennis-lee-crypto-info.netlify.app",
+  },
+ 
 ];
 
 

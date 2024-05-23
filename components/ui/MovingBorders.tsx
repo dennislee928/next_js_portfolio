@@ -84,7 +84,7 @@ export const MovingBorder = ({
   [key: string]: any;
 }) => {
   const pathRef = useRef<any>();
-  const progress = useMotionValue<number>(0);
+  const progress = useMotionValue<number>(2);
 
   useAnimationFrame((time) => {
     const length = pathRef.current?.getTotalLength();
@@ -96,7 +96,7 @@ export const MovingBorder = ({
 
   const x = useTransform(
     progress,
-    (val) => pathRef.current?.getPointAtLength(val).x
+    (val) => pathRef.current?.getPointAtLength(val).x+1
   );
   const y = useTransform(
     progress,

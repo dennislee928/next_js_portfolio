@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url:"https://github.com/dennislee928"
   },
   {
     id: 2,
     img: "/twit.svg",
+    url:"https://x.com/lee66876613"
   },
   {
     id: 3,
     img: "/link.svg",
+    url:"https://www.linkedin.com/in/pf-frog-4a3a352a2/"
   },
 ];

@@ -7,17 +7,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      My <span className="text-purple">3 phase</span> to build a website
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Research and Interview"
+          icon={<AceternityIcon order="First" />}
+          des="I'll meet up  with  clients, users,  to understand their needs and expectations. Study competitors and similar websites in the market to understand industry standards and best practices."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -27,10 +25,8 @@ const Approach = () => {
         </Card>
         <Card
           title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          icon={<AceternityIcon order="Second" />}
+          des="Once we agree on the plan, I'll list all the features and functionalities required for the website.Then determine the types of content the website will need (such as text, images, videos, etc.).After that, I 'll do wireframes and design prototypes, for User Testing.Then I will do Technology Selection(like front-end framework selection, cloud plaform selection, and Timeline for project.And Risk Mitigation Strategies.)"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -49,15 +45,13 @@ const Approach = () => {
         </Card>
         <Card
           title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          icon={<AceternityIcon order="Finally" />}
+          des="Based on above works, I will start to develope the project.And  Conduct review meetings to assess progress, discuss any issues, and make necessary adjustments.Once the project is ready, it's happy time to deploy and publish!But don't forget, I 'll provide debug or review after product is on-line."
         >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            colors={[[100, 211, 252]]}
           />
         </Card>
       </div>
@@ -96,11 +90,7 @@ const Card = ({
       }}
     >
       {/* change to h-10 w-10 , add opacity-30  */}
-      <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
-      <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
-      <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-white text-black opacity-30" />
-      <Icon className="absolute h-10 w-10 -bottom-3 -right-3 dark:text-white text-black opacity-30" />
-
+  
       <AnimatePresence>
         {hovered && (
           <motion.div

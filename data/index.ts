@@ -1,17 +1,18 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
- 
+
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
-  
-    {
+  {
     id: 3,
-    title: "I am always paying attention to new tech and make them my own weapon ",
+    title:
+      "I am always paying attention to new tech and make them my own weapon ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] color:black",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] color:black",
     imgClassName: "w-full h-full",
     titleClassName: "justify-en color:black",
     img: "/b1.svg",
@@ -27,7 +28,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
- 
+
   {
     id: 4,
     title: "Web3 oboriginal",
@@ -77,7 +78,7 @@ export const projects = [
     title: " My 2023 portfolio",
     des: "Using React+ three-fiber to create my previous portfolio.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg",  "/three.svg", ],
+    iconLists: ["/re.svg", "/tail.svg", "/three.svg"],
     link: "https://2023dennislee3dportfolio.netlify.app/",
   },
   {
@@ -85,23 +86,23 @@ export const projects = [
     title: "dennis-lee-guitar-store",
     des: "A E-Commerce platform with frontstage(for client side), and backstage(for admin side).",
     img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail.svg",],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://dennis-lee-guitar-store.netlify.app",
   },
   {
     id: 3,
-    title: "Bloddy mickey joke site",
+    title: "Bloddy mickey joke site(developing)",
     des: "Using Nuxt3 to create a site that mocks mickey mouse",
     img: "/p3.svg",
-    iconLists: ["/vue.svg","/nuxt3.svg","/ts.svg"],
-    link: "",
+    iconLists: ["/vue.svg", "/nuxt3.svg", "/ts.svg"],
+    link: "https://bloody-mickey.pages.dev/",
   },
   {
     id: 4,
     title: "Pokemon information site",
     des: "Using Nuxt3 to create a site that fetch complex Pokemon info api and create collapse info cards.",
     img: "/p4.svg",
-    iconLists: ["/vue.svg","/nuxt3.svg","/ts.svg"],
+    iconLists: ["/vue.svg", "/nuxt3.svg", "/ts.svg"],
     link: "https://pokemon-7u0.pages.dev/",
   },
   {
@@ -109,7 +110,7 @@ export const projects = [
     title: "My 2022 portfolio",
     des: "A pure three.js ghost house style portfolio.",
     img: "/p5.svg",
-    iconLists: ["/re.svg", "/tail.svg",  "/three.svg", ],
+    iconLists: ["/re.svg", "/tail.svg", "/three.svg"],
     link: "https://dennisleenccudct.github.io/dennisleepersonalwebsite2023/",
   },
   {
@@ -117,14 +118,10 @@ export const projects = [
     title: "Crypto info site",
     des: "Using coingecko api to create route.push multiple pages website.",
     img: "/p6.svg",
-    iconLists: ["/re.svg",],
+    iconLists: ["/re.svg"],
     link: "https://dennis-lee-crypto-info.netlify.app",
   },
- 
 ];
-
-
-
 
 export const workExperience = [
   {
@@ -161,16 +158,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url:"https://github.com/dennislee928"
+    url: "https://github.com/dennislee928",
   },
   {
     id: 2,
     img: "/twit.svg",
-    url:"https://x.com/lee66876613"
+    url: "https://x.com/lee66876613",
   },
   {
     id: 3,
     img: "/link.svg",
-    url:"https://www.linkedin.com/in/pf-frog-4a3a352a2/"
+    url: "https://www.linkedin.com/in/pf-frog-4a3a352a2/",
   },
 ];

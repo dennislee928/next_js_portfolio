@@ -17,7 +17,7 @@
     "@types/three": "^0.163.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.25",
+    "framer-motion": "^11.18.2",
     "lucide-react": "^0.365.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.1.4",

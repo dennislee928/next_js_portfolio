@@ -35,7 +35,7 @@
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.163.0",
-    "three-globe": "^2.31.0",
+    "three-globe": "^2.42.11",
     "vercel": "^34.0.0"
   },
   "devDependencies": {

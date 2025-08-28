@@ -11,21 +11,21 @@
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
-    "@react-three/fiber": "^8.18.0",
-    "@sentry/nextjs": "^7.105.0",
+    "@react-three/fiber": "^8.16.2",
+    "@sentry/nextjs": "^7.120.4",
     "@tabler/icons-react": "^3.34.0",
-    "@types/three": "^0.179.0",
+    "@types/three": "^0.163.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
 
     "framer-motion": "^11.0.25",
-    "lucide-react": "^0.536.0",
+    "lucide-react": "^0.517.0",
 
     "mini-svg-data-uri": "^1.4.4",
 
     "next": "14.2.25",
 
-    "next-themes": "^0.4.6",
+    "next-themes": "^0.3.0",
 
     "react": "^18.3.1",
     "react-dom": "^18",
@@ -34,9 +34,9 @@
     "react-lottie": "^1.2.4",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.179.1",
+    "three": "^0.163.0",
     "three-globe": "^2.31.0",
-    "vercel": "^34.4.0"
+    "vercel": "^34.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

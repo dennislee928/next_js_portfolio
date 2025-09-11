@@ -15,7 +15,7 @@
     "@sentry/nextjs": "^7.120.4",
     "@tabler/icons-react": "^3.34.0",
     "@types/three": "^0.163.0",
-    "class-variance-authority": "^0.7.0",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.0",
 
     "framer-motion": "^11.0.25",

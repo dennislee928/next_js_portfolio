@@ -34,7 +34,7 @@
     "react-lottie": "^1.2.10",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.163.0",
+    "three": "^0.179.1",
     "three-globe": "^2.44.0",
     "vercel": "^34.2.8"
   },

@@ -43,18 +43,18 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           {/* Status Badges */}
           <div className="flex flex-wrap gap-2 mb-4 justify-center">
-            <img 
-              src="https://img.shields.io/badge/currently-online-00C853?style=flat-square" 
+            <img
+              src="https://img.shields.io/badge/currently-online-00C853?style=flat-square"
               alt="Currently Online"
               className="h-5"
             />
-            <img 
-              src="https://img.shields.io/badge/coding-cybersecurity_project-FF6F00?style=flat-square" 
+            <img
+              src="https://img.shields.io/badge/coding-cybersecurity_project-FF6F00?style=flat-square"
               alt="Current Project"
               className="h-5"
             />
-            <img 
-              src="https://img.shields.io/badge/listening_to-UN%20AVEC%20DEUX-green?style=for-the-badge&logo=spotify" 
+            <img
+              src="https://img.shields.io/badge/listening_to-UN%20AVEC%20DEUX-green?style=for-the-badge&logo=spotify"
               alt="Listening to"
               className="h-5"
             />
@@ -66,16 +66,16 @@ const Hero = () => {
 
           {/* Dynamic SVG Typing Effect */}
           <div className="flex flex-col items-center gap-2 mb-6">
-            <img 
-              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=God+throws+dices" 
+            <img
+              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=God+throws+dices"
               alt="Typing SVG 1"
             />
-            <img 
-              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=78F77F&random=true&width=435&lines=and+we+try+to+catch+them" 
+            <img
+              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=78F77F&random=true&width=435&lines=and+we+try+to+catch+them"
               alt="Typing SVG 2"
             />
-            <img 
-              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=7684F7&random=true&width=435&lines=via+holy+languages%2C+code+that+is." 
+            <img
+              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=7684F7&random=true&width=435&lines=via+holy+languages%2C+code+that+is."
               alt="Typing SVG 3"
             />
           </div>
@@ -86,10 +86,10 @@ const Hero = () => {
           </h1>
 
           <p className="text-center md:tracking-wider mb-2 text-sm md:text-base lg:text-lg text-white-200 max-w-3xl">
-            Full-stack Developer & Cloud Engineer with a passion for building scalable systems, 
+            Full-stack Developer & Cloud Engineer with a passion for building scalable systems,
             automating workflows, and implementing cloud-native security solutions.
           </p>
-          
+
           <p className="text-center md:tracking-wider mb-6 text-sm md:text-base lg:text-lg text-white-200 max-w-3xl">
             具備約五年軟體開發經驗，擅長雲端平台部署、自動化維運與資安導向架構設計。
             曾協助政府、企業導入 Cloudflare DNS / WAF / 自動化腳本流程，熟悉 CI/CD、IAM、監控、備援與 DevSecOps 實作。

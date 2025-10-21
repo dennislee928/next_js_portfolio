@@ -34,9 +34,9 @@ const Footer = () => {
               position="right"
             />
           </a>
-          <a 
-            href="https://app.simplymeet.me/dennislee-rootcicd" 
-            target="_blank" 
+          <a
+            href="https://app.simplymeet.me/dennislee-rootcicd"
+            target="_blank"
             rel="noopener noreferrer"
           >
             <MagicButton
@@ -45,9 +45,9 @@ const Footer = () => {
               position="right"
             />
           </a>
-          <a 
-            href="https://hub.docker.com/u/dennisleetw" 
-            target="_blank" 
+          <a
+            href="https://hub.docker.com/u/dennisleetw"
+            target="_blank"
             rel="noopener noreferrer"
           >
             <MagicButton

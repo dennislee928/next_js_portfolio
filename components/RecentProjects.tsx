@@ -64,11 +64,24 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    {(item as any).demoVideo ? 'View Demo' : 'Check Live Site'}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
+
+              {(item as any).demoVideo && (
+                <div className="mt-2 text-center">
+                  <a
+                    href={(item as any).demoVideo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-white-200 hover:text-purple transition-colors"
+                  >
+                    📹 Demo Video
+                  </a>
+                </div>
+              )}
             </PinContainer>
           </div>
         ))}

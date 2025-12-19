@@ -17,19 +17,13 @@
     "@types/three": "^0.180.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.0",
-
     "framer-motion": "^11.0.25",
     "lucide-react": "^0.544.0",
-
     "mini-svg-data-uri": "^1.4.4",
-
-    "next": "14.2.33",
-
+    "next": "14.2.35",
     "next-themes": "^0.4.6",
-
     "react": "^18.3.1",
     "react-dom": "^18",
-
     "react-icons": "^5.5.0",
     "react-lottie": "^1.2.10",
     "tailwind-merge": "^2.6.0",

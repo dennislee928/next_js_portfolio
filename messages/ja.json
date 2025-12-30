@@ -1,0 +1,129 @@
+{
+  "Nav": {
+    "about": "私について",
+    "stats": "統計",
+    "techStack": "技術スタック",
+    "projects": "プロジェクト",
+    "certifications": "資格",
+    "contact": "お問い合わせ"
+  },
+  "Hero": {
+    "welcome": "👋 こんにちは、Dennis Lee です",
+    "title": "フルスタック開発者兼クラウドエンジニア",
+    "desc": "スケーラブルなシステムの構築、ワークフローの自動化、クラウドネイティブなセキュリティソリューションの実装に情熱を注ぐフルスタック開発者兼クラウドエンジニア。",
+    "cta": "私の作品を見る"
+  },
+  "Grid": {
+    "item3": {
+      "title": "常に新しい技術に注目し、自分の武器にしています"
+    },
+    "item2": {
+      "title": "タイムゾーンを超えたコミュニケーションに柔軟に対応します"
+    },
+    "item4": {
+      "title": "Web3ネイティブ",
+      "description": "akaSwapでの作品や、Metaハッカソンでの受賞歴があります。"
+    },
+    "itemEd": {
+      "title": "学歴：",
+      "description": "学士：国立政治大学 経営情報システム、修士：国立政治大学 デジタルコンテンツ"
+    },
+    "item5": {
+      "title": "最近、Flask APIサーバーを構築しています",
+      "description": "内部情報"
+    },
+    "item6": {
+      "title": "一緒にプロジェクトを始めませんか？"
+    }
+  },
+  "Projects": {
+    "heading": "厳選された {highlight} プロジェクト",
+    "highlight": "最近の",
+    "project1": {
+      "title": "炭素クレジット取引プラットフォーム Carboon",
+      "desc": "Golang + Supabase バックエンド、Swaggerドキュメント、JWT RBAC"
+    },
+    "project2": {
+      "title": "Web3 インタラクションプラットフォーム",
+      "desc": "スマートコントラクト連携、RWD UI、セキュリティ指向設計"
+    },
+    "project3": {
+      "title": "Cloudflare DNS フェイルオーバー & セキュリティガバナンス",
+      "desc": "DNS自動切り替え + WAFルール更新"
+    },
+    "project4": {
+      "title": "ファームウェア分析ラボ",
+      "desc": "YARAスキャンとCAN Busシミュレーションツールによるファームウェア静的分析"
+    },
+    "project5": {
+      "title": "サイドプロジェクト バックエンド",
+      "desc": "GCP Cloud Run上で動作するFlask API"
+    },
+    "project6": {
+      "title": "Cloudflare AI 画像生成",
+      "desc": "Cloudflare WorkersとJSを使用したAI画像生成"
+    },
+    "project7": {
+      "title": "Bitfinex レンディングボット (WIP)",
+      "desc": "YAML設定を使用したGolang自動レンディング戦略"
+    },
+    "project8": {
+      "title": "CityInsight 360",
+      "desc": "建設プロジェクト管理プラットフォーム"
+    },
+    "project9": {
+      "title": "量子オーディオ分析システム",
+      "desc": "サイバーパンク風量子オーディオ分析システム"
+    },
+    "project10": {
+      "title": "IELTS 学習ゲーム",
+      "desc": "インタラクティブなIELTS練習プラットフォーム"
+    }
+  },
+  "Experience": {
+    "heading": "私の {highlight}",
+    "highlight": "職務経歴",
+    "exp1": {
+      "title": "リードフロントエンドエンジニア - Bityacht.io",
+      "desc": "Nuxt3を使用して暗号資産取引所のユーザー側と運用側を構築。Figmaを使用したアプリ設計、GCP管理も担当。"
+    },
+    "exp2": {
+      "title": "MIS部門マネージャー - THAM.com",
+      "desc": "ERPシステムの導入、財務レポートの自動生成、データベース管理。"
+    },
+    "exp3": {
+      "title": "Unity ゲーム開発 - 国立政治大学 (教育学部)",
+      "desc": "リサーチアシスタントとしてUnityゲームプロジェクトを主導。C#スクリプト作成、シーン制作など。"
+    },
+    "exp4": {
+      "title": "フリーランス",
+      "desc": "案件ごとにシングルページWebサイトを開発。レストラン、研究所など。"
+    }
+  },
+  "Approach": {
+    "heading": "私の {highlight}",
+    "highlight": "アプローチ",
+    "phase1": {
+        "order": "フェーズ 1",
+        "title": "計画と戦略",
+        "desc": "Webサイトの目標、ターゲット層、主要機能を定義します。サイト構造、ナビゲーション、コンテンツ要件について話し合います。"
+    },
+    "phase2": {
+        "order": "フェーズ 2",
+        "title": "開発と進捗更新",
+        "desc": "計画に合意したら、Lo-Fiプレイリストを聴きながらコーディングに没頭します。初期スケッチから完成したコードまで、常に進捗を更新します。"
+    },
+    "phase3": {
+        "order": "フェーズ 3",
+        "title": "開発とローンチ",
+        "desc": "魔法の時間です！承認されたデザインに基づいて、すべてを機能的なコードに変換し、Webサイトをゼロから構築します。"
+    }
+  },
+  "Footer": {
+    "heading": "{highlight} を次のレベルへ高める準備はできましたか？",
+    "highlight": "あなたのデジタルプレゼンス",
+    "subheading": "今すぐご連絡ください。目標達成のお手伝いをさせていただきます。",
+    "cta": "お問い合わせ",
+    "copyright": "Copyright © 2024 Dennis Lee"
+  }
+}

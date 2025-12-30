@@ -2,22 +2,27 @@
 
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
+  const t = useTranslations('Approach');
+
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-      My <span className="text-purple">3 phase</span> to build a website
+        {t.rich('heading', {
+          highlight: (chunks) => <span className="text-purple">{chunks}</span>
+        })}
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Research and Interview"
-          icon={<AceternityIcon order="First" />}
-          des="I'll meet up  with  clients, users,  to understand their needs and expectations. Study competitors and similar websites in the market to understand industry standards and best practices."
+          title={t('phase1.title')}
+          icon={<AceternityIcon order={t('phase1.order')} />}
+          des={t('phase1.desc')}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +31,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Second" />}
-          des="Once we agree on the plan, I'll list all the features and functionalities required for the website.Then determine the types of content the website will need (such as text, images, videos, etc.).After that, I 'll do wireframes and design prototypes, for User Testing.Then I will do Technology Selection(like front-end framework selection, cloud plaform selection, and Timeline for project.And Risk Mitigation Strategies.)"
+          title={t('phase2.title')}
+          icon={<AceternityIcon order={t('phase2.order')} />}
+          des={t('phase2.desc')}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -46,9 +51,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Finally" />}
-          des="Based on above works, I will start to develope the project.And  Conduct review meetings to assess progress, discuss any issues, and make necessary adjustments.Once the project is ready, it's happy time to deploy and publish!But don't forget, I 'll provide debug or review after product is on-line."
+          title={t('phase3.title')}
+          icon={<AceternityIcon order={t('phase3.order')} />}
+          des={t('phase3.desc')}
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -26,18 +26,18 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <label className="border-2 rounded">
+    <label className="border-2 rounded bg-black-100/80 backdrop-blur-sm border-white/20">
       <p className="sr-only">change language</p>
       <select
         defaultValue={localActive}
-        className="bg-transparent py-2 px-4 rounded focus:outline-none"
+        className="bg-transparent py-2 px-4 rounded focus:outline-none text-white cursor-pointer"
         onChange={onSelectChange}
         disabled={isPending}
       >
-        <option value="en">English</option>
-        <option value="zh-TW">繁體中文</option>
-        <option value="ja">日本語</option>
-        <option value="es">Español</option>
+        <option value="en" className="bg-black-100 text-white">English</option>
+        <option value="zh-TW" className="bg-black-100 text-white">繁體中文</option>
+        <option value="ja" className="bg-black-100 text-white">日本語</option>
+        <option value="es" className="bg-black-100 text-white">Español</option>
       </select>
     </label>
   );

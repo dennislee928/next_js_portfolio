@@ -79,7 +79,7 @@ export const projects = [
     id: 1,
     title: "碳權交易平台 Carboon",
     des: "Golang + Supabase 架構 API，含 Swagger 文件與 JWT RBAC | Golang backend with Supabase, Swagger docs and JWT RBAC",
-    img: "/p1.svg",
+    img: "/carboon.png",
     iconLists: ["/re.svg", "/tail.svg", "/three.svg"],
     link: "https://github.com/dennislee928/carboon-trade-backend",
     demoVideo: "https://youtu.be/_iW3o3_Lvzs",
@@ -88,9 +88,10 @@ export const projects = [
     id: 2,
     title: "Web3 互動平台",
     des: "與智能合約互動介面，包含 RWD UI 與資安導向設計 | Web3 smart contract interaction platform with RWD UI",
-    img: "/p2.svg",
-    iconLists: ["/vue.svg", "/tail.svg"],
+    img: "/web3.png",
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://web3.dennisleehappy.org/",
+    demoVideo: "https://web3.dennisleehappy.org/"
   },
   {
     id: 3,
@@ -105,8 +106,8 @@ export const projects = [
     id: 4,
     title: "Firmware Analysis Lab",
     des: "韌體靜態分析、YARA 掃描與 CAN Bus 模擬工具組 | Firmware static analysis with YARA scanning and CAN Bus simulation",
-    img: "/p4.svg",
-    iconLists: ["/vue.svg", "/nuxt3.svg", "/ts.svg"],
+    img: "/yara.png",
+    iconLists: ["/ts.svg"],
     link: "https://github.com/dennislee928/firmware-research-demo",
     demoVideo: "https://youtu.be/rHVcB-mxKB8",
   },
@@ -131,9 +132,10 @@ export const projects = [
     id: 7,
     title: "Bitfinex Funding Bot (WIP)",
     des: "Go 實作自動放貸策略，含 YAML 策略模組 | Golang automated lending strategy with YAML config",
-    img: "/p1.svg",
+    img: "/bot.png",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://github.com/dennislee928/fundbot-go",
+    demoVideo:"https://github.com/dennislee928/fundbot-go"
   },
   {
     id: 8,
@@ -142,22 +144,25 @@ export const projects = [
     img: "/p2.svg",
     iconLists: ["/vue.svg", "/nuxt3.svg"],
     link: "https://shipeng-dev.dennisleehappy.org/login",
+    demoVideo: "https://shipeng-dev.dennisleehappy.org/login"
   },
   {
     id: 9,
     title: "量子音頻分析系統",
-    des: "賽博朋克風格的量子音頻分析系統 | Cyberpunk quantum audio analysis system",
-    img: "/p3.svg",
+    des: "cyberpunk 風格的量子音頻分析系統 | Cyberpunk quantum audio analysis system",
+    img: "/essentia.png",
     iconLists: ["/re.svg", "/three.svg"],
     link: "https://essentia.dennisleehappy.org/",
+    demoVideo: "https://essentia.dennisleehappy.org/"
   },
   {
     id: 10,
     title: "IELTS 學習遊戲",
     des: "互動式 IELTS 練習平台 | Interactive IELTS practice platform",
-    img: "/p4.svg",
+    img: "/https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.newcambridgecollege.com%2Fblog%2Fwp-content%2Fuploads%2F2023%2F01%2Fshutterstock_2193068817-scaled.jpg&f=1&nofb=1&ipt=de38c910a808cc619038c402a903d2f7c0a54a9e5afdf387fed99b99fd3bcebe",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://ielts-game.vercel.app/",
+    demoVideo: "https://ielts-game.vercel.app/"
   },
 ];
 

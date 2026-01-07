@@ -13,7 +13,7 @@
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
     "@sentry/nextjs": "^7.120.4",
-    "@tabler/icons-react": "^3.35.0",
+    "@tabler/icons-react": "^3.36.0",
     "@types/three": "^0.180.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.0",

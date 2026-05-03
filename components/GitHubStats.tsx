@@ -8,21 +8,27 @@ const GitHubStats = () => {
       </h1>
 
       <div className="w-full mt-12 flex flex-col items-center gap-8">
-        {/* GitHub Stats Card */}
-        <div className="w-full max-w-4xl flex justify-center">
+        <div className="flex flex-wrap justify-center gap-4">
           <img
-            src="https://github-readme-stats.vercel.app/api?username=dennislee928&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=CBACF9&icon_color=CBACF9&text_color=FFFFFF"
-            alt="Dennis's GitHub Stats"
-            className="w-full max-w-md"
+            src="https://github-readme-stats.zcy.dev/api?username=dennislee928&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=tokyonight"
+            alt="Dennis's GitHub stats"
+            className="hover:scale-105 transition-transform duration-300"
           />
+          
+          <a href="https://github.com/dennislee928/github-readme-stats&theme=tokyonight" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://github-readme-stats.zcy.dev/api/top-langs?username=dennislee928&layout=donut"
+              alt="Top Langs"
+              className="hover:scale-105 transition-transform duration-300"
+            />
+          </a>
         </div>
 
-        {/* GitHub Trophies */}
-        <div className="w-full max-w-6xl flex justify-center">
+        <div className="flex justify-center">
           <img
-            src="https://github-profile-trophy.vercel.app/?username=dennislee928&theme=onedark&rank=SECRET,SSS,SS,S,AAA,AA,A,BBB,BB,B&no-frame=true&no-bg=true&margin-w=4&column=4"
-            alt="GitHub Trophies"
-            className="w-full"
+            src="https://github-readme-stats.zcy.dev/api?username=dennislee928&rank_icon=percentile&theme=tokyonight"
+            alt="Dennis's GitHub stats"
+            className="hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>
@@ -31,4 +37,3 @@ const GitHubStats = () => {
 };
 
 export default GitHubStats;
-

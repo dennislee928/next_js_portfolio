@@ -1,0 +1,129 @@
+{
+  "Nav": {
+    "about": "Sobre mí",
+    "stats": "Estadísticas",
+    "techStack": "Tecnologías",
+    "projects": "Proyectos",
+    "certifications": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "welcome": "👋 Hola, soy Dennis Lee",
+    "title": "Desarrollador Full-stack e Ingeniero en la Nube",
+    "desc": "Desarrollador Full-stack e Ingeniero en la Nube con pasión por construir sistemas escalables, automatizar flujos de trabajo e implementar soluciones de seguridad nativas de la nube.",
+    "cta": "Ver mi trabajo"
+  },
+  "Grid": {
+    "item3": {
+      "title": "Siempre estoy atento a las nuevas tecnologías y las convierto en mi propia arma"
+    },
+    "item2": {
+      "title": "Soy muy flexible con las comunicaciones en diferentes zonas horarias"
+    },
+    "item4": {
+      "title": "Nativo de Web3",
+      "description": "Algunos trabajos en akaSwap y premio en el hackathon de Meta."
+    },
+    "itemEd": {
+      "title": "Educación:",
+      "description": "Licenciatura: NCCU MIS, Maestría: NCCU DCT"
+    },
+    "item5": {
+      "title": "Construyendo un servidor API Flask recientemente",
+      "description": "La primicia"
+    },
+    "item6": {
+      "title": "¿Quieres iniciar un proyecto juntos?"
+    }
+  },
+  "Projects": {
+    "heading": "Una pequeña selección de mis proyectos {highlight}",
+    "highlight": "recientes",
+    "project1": {
+      "title": "Plataforma de Comercio de Créditos de Carbono Carboon",
+      "desc": "Backend en Golang con Supabase, documentación Swagger y RBAC con JWT"
+    },
+    "project2": {
+      "title": "Plataforma de Interacción Web3",
+      "desc": "Plataforma de interacción con contratos inteligentes Web3 con UI RWD"
+    },
+    "project3": {
+      "title": "Gobernanza de Seguridad y Failover DNS de Cloudflare",
+      "desc": "Conmutación por error de DNS automatizada y gestión de reglas WAF"
+    },
+    "project4": {
+      "title": "Laboratorio de Análisis de Firmware",
+      "desc": "Análisis estático de firmware con escaneo YARA y simulación de bus CAN"
+    },
+    "project5": {
+      "title": "Backend de Proyecto Paralelo",
+      "desc": "API Flask en GCP Cloud Run"
+    },
+    "project6": {
+      "title": "Generación de Imágenes con IA de Cloudflare",
+      "desc": "Generación de imágenes con IA usando Cloudflare Workers"
+    },
+    "project7": {
+      "title": "Bot de Financiación Bitfinex (WIP)",
+      "desc": "Estrategia de préstamo automatizada en Golang con configuración YAML"
+    },
+    "project8": {
+      "title": "CityInsight 360",
+      "desc": "Plataforma de gestión de proyectos de construcción"
+    },
+    "project9": {
+      "title": "Sistema de Análisis de Audio Cuántico",
+      "desc": "Sistema de análisis de audio cuántico estilo Cyberpunk"
+    },
+    "project10": {
+      "title": "Juego de Aprendizaje IELTS",
+      "desc": "Plataforma interactiva de práctica para el IELTS"
+    }
+  },
+  "Experience": {
+    "heading": "Mi {highlight}",
+    "highlight": "experiencia laboral",
+    "exp1": {
+      "title": "Ingeniero Frontend Principal-Bityacht.io",
+      "desc": "Uso de Nuxt3 para construir una empresa de intercambio de criptomonedas. Diseño de aplicaciones en Figma. Gestión de GCP."
+    },
+    "exp2": {
+      "title": "Gerente del departamento MIS - THAM.com",
+      "desc": "Importación de sistema ERP, informes financieros generados automáticamente y gestión de bases de datos."
+    },
+    "exp3": {
+      "title": "Desarrollador de juegos Unity-Universidad Nacional Cheng Chi",
+      "desc": "Realización de un proyecto de juego Unity como asistente de investigación. Escritura de C#, creación de escenas, etc."
+    },
+    "exp4": {
+      "title": "Freelance",
+      "desc": "Desarrollo de sitios web de una página caso por caso. Incluyendo restaurantes, laboratorios, etc."
+    }
+  },
+  "Approach": {
+    "heading": "Mi {highlight}",
+    "highlight": "enfoque",
+    "phase1": {
+        "order": "Fase 1",
+        "title": "Planificación y Estrategia",
+        "desc": "Colaboraremos para trazar los objetivos, el público objetivo y las funcionalidades clave de su sitio web."
+    },
+    "phase2": {
+        "order": "Fase 2",
+        "title": "Desarrollo y Actualización",
+        "desc": "Una vez acordado el plan, me pongo a codificar. Desde los bocetos iniciales hasta el código pulido, lo mantengo actualizado."
+    },
+    "phase3": {
+        "order": "Fase 3",
+        "title": "Desarrollo y Lanzamiento",
+        "desc": "¡Aquí es donde ocurre la magia! Basado en el diseño aprobado, traduciré todo en código funcional."
+    }
+  },
+  "Footer": {
+    "heading": "¿Listo para llevar {highlight} al siguiente nivel?",
+    "highlight": "tu presencia digital",
+    "subheading": "Contáctame hoy y discutamos cómo puedo ayudarte a alcanzar tus objetivos.",
+    "cta": "Pongámonos en contacto",
+    "copyright": "Copyright © 2025 Dennis Lee"
+  }
+}

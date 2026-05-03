@@ -1,0 +1,129 @@
+{
+  "Nav": {
+    "about": "關於我",
+    "stats": "數據",
+    "techStack": "技術堆疊",
+    "projects": "專案",
+    "certifications": "證書",
+    "contact": "聯絡我"
+  },
+  "Hero": {
+    "welcome": "👋 嗨，我是 Dennis Lee 李沛宸",
+    "title": "全端開發者 & 雲端工程師",
+    "desc": "具備約五年軟體開發經驗，擅長雲端平台部署、自動化維運與資安導向架構設計。曾協助政府、企業導入 Cloudflare DNS / WAF / 自動化腳本流程，熟悉 CI/CD、IAM、監控、備援與 DevSecOps 實作。",
+    "cta": "查看我的作品"
+  },
+  "Grid": {
+    "item3": {
+      "title": "我總是關注新技術並將其轉化為我的武器"
+    },
+    "item2": {
+      "title": "對於時區溝通非常彈性"
+    },
+    "item4": {
+      "title": "Web3 原住民",
+      "description": "akaSwap 上的一些作品，以及 Meta 黑客松獎項。"
+    },
+    "itemEd": {
+      "title": "學歷：",
+      "description": "學士：政大資管，碩士：政大數位內容"
+    },
+    "item5": {
+      "title": "最近正在建立 Flask API 伺服器",
+      "description": "內部消息"
+    },
+    "item6": {
+      "title": "想一起開始一個專案嗎？"
+    }
+  },
+  "Projects": {
+    "heading": "精選 {highlight} 專案",
+    "highlight": "近期",
+    "project1": {
+      "title": "碳權交易平台 Carboon",
+      "desc": "Golang + Supabase 架構 API，含 Swagger 文件與 JWT RBAC"
+    },
+    "project2": {
+      "title": "Web3 互動平台",
+      "desc": "與智能合約互動介面，包含 RWD UI 與資安導向設計"
+    },
+    "project3": {
+      "title": "Cloudflare DNS 備援與資安治理",
+      "desc": "自動化切換 DNS + WAF 規則更新"
+    },
+    "project4": {
+      "title": "韌體分析實驗室",
+      "desc": "韌體靜態分析、YARA 掃描與 CAN Bus 模擬工具組"
+    },
+    "project5": {
+      "title": "Side Project Backend",
+      "desc": "部署在 Cloud Run 上的 Python RESTful API"
+    },
+    "project6": {
+      "title": "Cloudflare AI 圖像生成",
+      "desc": "利用 Cloudflare Workers 與 JS 建立前後端原型"
+    },
+    "project7": {
+      "title": "Bitfinex 放貸機器人 (WIP)",
+      "desc": "Go 實作自動放貸策略，含 YAML 策略模組"
+    },
+    "project8": {
+      "title": "CityInsight 360",
+      "desc": "建築專案管理平台"
+    },
+    "project9": {
+      "title": "量子音頻分析系統",
+      "desc": "Cyberpunk 風格的量子音頻分析系統"
+    },
+    "project10": {
+      "title": "IELTS 學習遊戲",
+      "desc": "互動式 IELTS 練習平台"
+    }
+  },
+  "Experience": {
+    "heading": "我的 {highlight}",
+    "highlight": "工作經歷",
+    "exp1": {
+      "title": "前端技術主管-Bityacht.io",
+      "desc": "使用 Nuxt3 建立加密貨幣交易所的用戶端與營運端。負責 App 設計 (Figma) 與 GCP 管理。"
+    },
+    "exp2": {
+      "title": "資訊部門經理 - THAM.com",
+      "desc": "導入 ERP 系統、自動產生財務報表與資料庫管理。"
+    },
+    "exp3": {
+      "title": "Unity 遊戲開發-國立政治大學(教育系)",
+      "desc": "擔任研究助理進行 Unity 遊戲專案。撰寫 C# 腳本、場景製作等。"
+    },
+    "exp4": {
+      "title": "自由接案",
+      "desc": "依案開發單頁式網站。包含餐廳、實驗室等。"
+    }
+  },
+  "Approach": {
+    "heading": "我的 {highlight}",
+    "highlight": "開發流程",
+    "phase1": {
+        "order": "階段一",
+        "title": "規劃與策略",
+        "desc": "我們將合作規劃網站目標、目標受眾和關鍵功能。討論網站架構、導航和內容需求。"
+    },
+    "phase2": {
+        "order": "階段二",
+        "title": "開發與進度更新",
+        "desc": "確認計畫後，我會播放 Lo-Fi 音樂並投入編碼。從草圖到完善的程式碼，隨時向您更新進度。"
+    },
+    "phase3": {
+        "order": "階段三",
+        "title": "開發與發布",
+        "desc": "魔法時刻！基於核准的設計，我將把一切轉化為功能性程式碼，從頭建立您的網站。"
+    }
+  },
+  "Footer": {
+    "heading": "準備好讓 {highlight} 更上一層樓了嗎？",
+    "highlight": "您的數位形象",
+    "subheading": "立即聯繫我，討論我如何協助您達成目標。",
+    "cta": "保持聯繫",
+    "copyright": "版權所有 © 2025 Dennis Lee"
+  }
+}

@@ -4,13 +4,17 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { useTranslations } from "next-intl";
 
 const RecentProjects = () => {
+  const t = useTranslations('Projects');
+
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        {t.rich('heading', {
+          highlight: (chunks) => <span className="text-purple">{chunks}</span>
+        })}
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -34,7 +38,7 @@ const RecentProjects = () => {
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
+                {t(`project${item.id}.title`)}
               </h1>
 
               <p
@@ -44,7 +48,7 @@ const RecentProjects = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {t(`project${item.id}.desc`)}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">

@@ -1,11 +1,14 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 
 const Hero = () => {
+  const t = useTranslations('Hero');
+
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -63,7 +66,7 @@ const Hero = () => {
           </div>
 
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 mb-4">
-            👋 Hi, I&apos;m Dennis Lee 李沛宸
+            {t('welcome')}
           </p>
 
           {/* Dynamic SVG Typing Effect */}
@@ -84,22 +87,16 @@ const Hero = () => {
 
           {/* Bilingual Introduction */}
           <h1 className="text-center text-[32px] md:text-4xl lg:text-5xl font-bold mb-4 text-white">
-            Full-stack Developer & Cloud Engineer
+            {t('title')}
           </h1>
 
-          <p className="text-center md:tracking-wider mb-2 text-sm md:text-base lg:text-lg text-white-200 max-w-3xl">
-            Full-stack Developer & Cloud Engineer with a passion for building scalable systems,
-            automating workflows, and implementing cloud-native security solutions.
-          </p>
-
           <p className="text-center md:tracking-wider mb-6 text-sm md:text-base lg:text-lg text-white-200 max-w-3xl">
-            具備約五年軟體開發經驗，擅長雲端平台部署、自動化維運與資安導向架構設計。
-            曾協助政府、企業導入 Cloudflare DNS / WAF / 自動化腳本流程，熟悉 CI/CD、IAM、監控、備援與 DevSecOps 實作。
+            {t('desc')}
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title={t('cta')}
               icon={<FaLocationArrow />}
               position="right"
             />

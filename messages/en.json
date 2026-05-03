@@ -1,0 +1,129 @@
+{
+  "Nav": {
+    "about": "About",
+    "stats": "Stats",
+    "techStack": "Tech Stack",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "welcome": "👋 Hi, I'm Dennis Lee",
+    "title": "Full-stack Developer & Cloud Engineer",
+    "desc": "Full-stack Developer & Cloud Engineer with a passion for building scalable systems, automating workflows, and implementing cloud-native security solutions.",
+    "cta": "Show my work"
+  },
+  "Grid": {
+    "item3": {
+      "title": "I am always paying attention to new tech and make them my own weapon"
+    },
+    "item2": {
+      "title": "I'm very flexible with time zone communications"
+    },
+    "item4": {
+      "title": "Web3 oboriginal",
+      "description": "Some works on akaswap, and reward of Meta hackthon."
+    },
+    "itemEd": {
+      "title": "Education degree:",
+      "description": "Bachelor degree:NCCU MIS, Master degree:NCCU DCT"
+    },
+    "item5": {
+      "title": "Building a falsk api server, recently",
+      "description": "The Inside Scoop"
+    },
+    "item6": {
+      "title": "Do you want to start a project together?"
+    }
+  },
+  "Projects": {
+    "heading": "A small selection of my {highlight} projects",
+    "highlight": "recent",
+    "project1": {
+      "title": "Carbon Credit Trading Platform Carboon",
+      "desc": "Golang backend with Supabase, Swagger docs and JWT RBAC"
+    },
+    "project2": {
+      "title": "Web3 Interaction Platform",
+      "desc": "Web3 smart contract interaction platform with RWD UI"
+    },
+    "project3": {
+      "title": "Cloudflare DNS Failover & Security Governance",
+      "desc": "Automated DNS failover and WAF rule management"
+    },
+    "project4": {
+      "title": "Firmware Analysis Lab",
+      "desc": "Firmware static analysis with YARA scanning and CAN Bus simulation"
+    },
+    "project5": {
+      "title": "Side Project Backend",
+      "desc": "Flask API on GCP Cloud Run"
+    },
+    "project6": {
+      "title": "Cloudflare AI Image Generation",
+      "desc": "AI image generation using Cloudflare Workers"
+    },
+    "project7": {
+      "title": "Bitfinex Funding Bot (WIP)",
+      "desc": "Golang automated lending strategy with YAML config"
+    },
+    "project8": {
+      "title": "CityInsight 360",
+      "desc": "Construction project management platform"
+    },
+    "project9": {
+      "title": "Quantum Audio Analysis System",
+      "desc": "Cyberpunk quantum audio analysis system"
+    },
+    "project10": {
+      "title": "IELTS Learning Game",
+      "desc": "Interactive IELTS practice platform"
+    }
+  },
+  "Experience": {
+    "heading": "My {highlight} work experience",
+    "highlight": "work experience",
+    "exp1": {
+      "title": "Lead Frontend Engineer-Bityacht.io",
+      "desc": "Using Nuxt3 to build a crypto excahnge company in user-end an d operation -end. And doing Figma for app design. GCP management."
+    },
+    "exp2": {
+      "title": "Manager of MIS department - THAM.com",
+      "desc": "Importing ERP system, auto-generated financial report, and Database management."
+    },
+    "exp3": {
+      "title": "Unity game builder-National Cheng Chi University(EDU Dep.)",
+      "desc": "Conduct a Unity game project as an Research Assistant. Writing C#, making scenes, etc."
+    },
+    "exp4": {
+      "title": "Freelance",
+      "desc": "Onepage web site development case by case. Including restaurant, labs, etc."
+    }
+  },
+  "Approach": {
+    "heading": "My {highlight} approach",
+    "highlight": "approach",
+    "phase1": {
+        "order": "Phase 1",
+        "title": "Planning & Strategy",
+        "desc": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+    },
+    "phase2": {
+        "order": "Phase 2",
+        "title": "Development & Progress Update",
+        "desc": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+    },
+    "phase3": {
+        "order": "Phase 3",
+        "title": "Development & Launch",
+        "desc": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+    }
+  },
+  "Footer": {
+    "heading": "Ready to take {highlight} to the next level?",
+    "highlight": "your digital presence",
+    "subheading": "Reach out to me today and let's discuss how I can help you achieve your goals.",
+    "cta": "Let's get in touch",
+    "copyright": "Copyright © 2025 Dennis Lee"
+  }
+}

@@ -1,0 +1,24 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="32" fill="#08111F"/>
+  <rect x="42" y="44" width="556" height="332" rx="24" fill="#111827" stroke="#2DD4BF" stroke-opacity="0.35"/>
+  <rect x="72" y="78" width="496" height="54" rx="14" fill="#0F172A"/>
+  <circle cx="101" cy="105" r="8" fill="#34D399"/>
+  <circle cx="127" cy="105" r="8" fill="#FBBF24"/>
+  <circle cx="153" cy="105" r="8" fill="#FB7185"/>
+  <text x="188" y="112" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="20" font-weight="700">Inclusive AI Trust Gateway</text>
+  <rect x="72" y="158" width="160" height="162" rx="18" fill="#0B1220" stroke="#38BDF8" stroke-opacity="0.45"/>
+  <path d="M152 185L207 205V245C207 282 181 304 152 314C123 304 97 282 97 245V205L152 185Z" fill="#0EA5E9" fill-opacity="0.18" stroke="#38BDF8" stroke-width="4"/>
+  <path d="M126 247L145 266L181 224" stroke="#5EEAD4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="264" y="158" width="304" height="44" rx="12" fill="#172033"/>
+  <rect x="284" y="173" width="86" height="14" rx="7" fill="#5EEAD4"/>
+  <rect x="388" y="173" width="140" height="14" rx="7" fill="#334155"/>
+  <rect x="264" y="222" width="304" height="44" rx="12" fill="#172033"/>
+  <rect x="284" y="237" width="118" height="14" rx="7" fill="#A78BFA"/>
+  <rect x="420" y="237" width="102" height="14" rx="7" fill="#334155"/>
+  <rect x="264" y="286" width="304" height="44" rx="12" fill="#172033"/>
+  <rect x="284" y="301" width="100" height="14" rx="7" fill="#F59E0B"/>
+  <rect x="402" y="301" width="126" height="14" rx="7" fill="#334155"/>
+  <path d="M240 239H264" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M542 202V222" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M542 266V286" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+</svg>

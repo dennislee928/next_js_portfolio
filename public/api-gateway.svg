@@ -1,0 +1,17 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="32" fill="#07111F"/>
+  <rect x="58" y="54" width="524" height="312" rx="24" fill="#0F172A" stroke="#60A5FA" stroke-opacity="0.35"/>
+  <text x="94" y="104" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="25" font-weight="700">api.dennisleehappy.org</text>
+  <text x="94" y="132" fill="#93C5FD" font-family="Arial, sans-serif" font-size="16">Trust gateway service endpoint</text>
+  <circle cx="320" cy="226" r="64" fill="#1D4ED8" fill-opacity="0.18" stroke="#60A5FA" stroke-width="5"/>
+  <path d="M320 185V267M279 226H361" stroke="#93C5FD" stroke-width="8" stroke-linecap="round"/>
+  <rect x="90" y="190" width="134" height="72" rx="16" fill="#111827" stroke="#34D399" stroke-opacity="0.45"/>
+  <text x="119" y="232" fill="#D1FAE5" font-family="Arial, sans-serif" font-size="18" font-weight="700">Client UI</text>
+  <rect x="416" y="190" width="134" height="72" rx="16" fill="#111827" stroke="#A78BFA" stroke-opacity="0.45"/>
+  <text x="446" y="232" fill="#F3E8FF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Agents</text>
+  <path d="M224 226H256M384 226H416" stroke="#60A5FA" stroke-width="6" stroke-linecap="round"/>
+  <rect x="118" y="296" width="404" height="34" rx="12" fill="#111827"/>
+  <rect x="140" y="309" width="86" height="8" rx="4" fill="#34D399"/>
+  <rect x="244" y="309" width="126" height="8" rx="4" fill="#60A5FA"/>
+  <rect x="388" y="309" width="92" height="8" rx="4" fill="#A78BFA"/>
+</svg>

@@ -39,6 +39,7 @@
   "Projects": {
     "heading": "厳選された {highlight} プロジェクト",
     "highlight": "最近の",
+    "subheading": "dennisleehappy.org 配下の公開済みプロジェクトと、必須表示の AI trust / defense 画面を整理しました。到達性は 2026-07-16 に確認済みです。",
     "project1": {
       "title": "炭素クレジット取引プラットフォーム Carboon",
       "desc": "Golang + Supabase バックエンド、Swaggerドキュメント、JWT RBAC"
@@ -78,6 +79,18 @@
     "project10": {
       "title": "IELTS 学習ゲーム",
       "desc": "インタラクティブなIELTS練習プラットフォーム"
+    },
+    "project11": {
+      "title": "Inclusive AI Trust Gateway",
+      "desc": "AIアプリ向けのポリシー、ゲートウェイ、信頼制御を示す主要なAIガバナンスUI"
+    },
+    "project12": {
+      "title": "Agentic Defense Matrix ADM",
+      "desc": "api.dennisleehappy.org をAPIとゲートウェイに設定したGitHub Pagesの防御マトリクス"
+    },
+    "project13": {
+      "title": "dennisleehappy.org API Gateway",
+      "desc": "AI trust と defense デモを支える公開APIゲートウェイ"
     }
   },
   "Experience": {

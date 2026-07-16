@@ -39,6 +39,7 @@
   "Projects": {
     "heading": "Una pequeña selección de mis proyectos {highlight}",
     "highlight": "recientes",
+    "subheading": "Trabajo en vivo de dennisleehappy.org junto con las superficies obligatorias de AI trust y defense; conectividad verificada el 16 de julio de 2026.",
     "project1": {
       "title": "Plataforma de Comercio de Créditos de Carbono Carboon",
       "desc": "Backend en Golang con Supabase, documentación Swagger y RBAC con JWT"
@@ -78,6 +79,18 @@
     "project10": {
       "title": "Juego de Aprendizaje IELTS",
       "desc": "Plataforma interactiva de práctica para el IELTS"
+    },
+    "project11": {
+      "title": "Inclusive AI Trust Gateway",
+      "desc": "Controles de policy, gateway y trust para aplicaciones de IA, presentado como frontend principal de AI governance"
+    },
+    "project12": {
+      "title": "Agentic Defense Matrix ADM",
+      "desc": "Matriz defensiva en GitHub Pages preconfigurada para usar api.dennisleehappy.org como API y gateway"
+    },
+    "project13": {
+      "title": "dennisleehappy.org API Gateway",
+      "desc": "Gateway API en vivo que respalda las demostraciones de AI trust y defense"
     }
   },
   "Experience": {

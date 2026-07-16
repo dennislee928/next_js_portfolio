@@ -37,7 +37,7 @@
     }
   },
   "Projects": {
-    "heading": "A small selection of my {highlight} projects",
+    "heading": "A small selection of my <highlight>recent</highlight> projects",
     "highlight": "recent",
     "subheading": "Live and high-signal work from dennisleehappy.org plus the required AI trust and defense surfaces, with reachability checked on July 16, 2026.",
     "project1": {
@@ -94,7 +94,7 @@
     }
   },
   "Experience": {
-    "heading": "My {highlight} work experience",
+    "heading": "My <highlight>work experience</highlight>",
     "highlight": "work experience",
     "exp1": {
       "title": "Lead Frontend Engineer-Bityacht.io",
@@ -114,7 +114,7 @@
     }
   },
   "Approach": {
-    "heading": "My {highlight} approach",
+    "heading": "My <highlight>approach</highlight>",
     "highlight": "approach",
     "phase1": {
         "order": "Phase 1",
@@ -133,7 +133,7 @@
     }
   },
   "Footer": {
-    "heading": "Ready to take {highlight} to the next level?",
+    "heading": "Ready to take <highlight>your digital presence</highlight> to the next level?",
     "highlight": "your digital presence",
     "subheading": "Reach out to me today and let's discuss how I can help you achieve your goals.",
     "cta": "Let's get in touch",

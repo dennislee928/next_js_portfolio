@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/MovingBorders";
 
@@ -98,10 +99,12 @@ const Certifications = () => {
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex flex-col items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-              <img
+              <Image
                 src={cert.thumbnail}
                 alt={cert.category}
-                className="lg:w-32 md:w-20 w-16"
+                width={128}
+                height={128}
+                className="h-auto lg:w-32 md:w-20 w-16"
               />
               <div className="text-center">
                 <div className="text-sm text-purple mb-2">{cert.category}</div>
@@ -121,4 +124,3 @@ const Certifications = () => {
 };
 
 export default Certifications;
-

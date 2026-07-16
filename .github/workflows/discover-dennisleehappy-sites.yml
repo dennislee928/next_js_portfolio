@@ -27,6 +27,7 @@ jobs:
         run: node scripts/discover-dennisleehappy-sites.mjs
 
       - name: Upload discovery report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: dennisleehappy-site-discovery

@@ -37,7 +37,7 @@
     }
   },
   "Projects": {
-    "heading": "厳選された {highlight} プロジェクト",
+    "heading": "厳選された <highlight>最近の</highlight> プロジェクト",
     "highlight": "最近の",
     "subheading": "dennisleehappy.org 配下の公開済みプロジェクトと、必須表示の AI trust / defense 画面を整理しました。到達性は 2026-07-16 に確認済みです。",
     "project1": {
@@ -94,7 +94,7 @@
     }
   },
   "Experience": {
-    "heading": "私の {highlight}",
+    "heading": "私の <highlight>職務経歴</highlight>",
     "highlight": "職務経歴",
     "exp1": {
       "title": "リードフロントエンドエンジニア - Bityacht.io",
@@ -114,7 +114,7 @@
     }
   },
   "Approach": {
-    "heading": "私の {highlight}",
+    "heading": "私の <highlight>アプローチ</highlight>",
     "highlight": "アプローチ",
     "phase1": {
         "order": "フェーズ 1",
@@ -133,7 +133,7 @@
     }
   },
   "Footer": {
-    "heading": "{highlight} を次のレベルへ高める準備はできましたか？",
+    "heading": "<highlight>あなたのデジタルプレゼンス</highlight> を次のレベルへ高める準備はできましたか？",
     "highlight": "あなたのデジタルプレゼンス",
     "subheading": "今すぐご連絡ください。目標達成のお手伝いをさせていただきます。",
     "cta": "お問い合わせ",

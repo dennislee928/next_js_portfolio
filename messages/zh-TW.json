@@ -37,7 +37,7 @@
     }
   },
   "Projects": {
-    "heading": "精選 {highlight} 專案",
+    "heading": "精選 <highlight>近期</highlight> 專案",
     "highlight": "近期",
     "subheading": "整理 dennisleehappy.org 旗下已上線作品，以及指定必須呈現的 AI trust / defense 介面；連線狀態已於 2026-07-16 檢查。",
     "project1": {
@@ -94,7 +94,7 @@
     }
   },
   "Experience": {
-    "heading": "我的 {highlight}",
+    "heading": "我的 <highlight>工作經歷</highlight>",
     "highlight": "工作經歷",
     "exp1": {
       "title": "前端技術主管-Bityacht.io",
@@ -114,7 +114,7 @@
     }
   },
   "Approach": {
-    "heading": "我的 {highlight}",
+    "heading": "我的 <highlight>開發流程</highlight>",
     "highlight": "開發流程",
     "phase1": {
         "order": "階段一",
@@ -133,7 +133,7 @@
     }
   },
   "Footer": {
-    "heading": "準備好讓 {highlight} 更上一層樓了嗎？",
+    "heading": "準備好讓 <highlight>您的數位形象</highlight> 更上一層樓了嗎？",
     "highlight": "您的數位形象",
     "subheading": "立即聯繫我，討論我如何協助您達成目標。",
     "cta": "保持聯繫",

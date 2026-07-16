@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
@@ -44,13 +45,20 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="" loading="lazy" />
+                  <Image
+                    src="/bg.png"
+                    alt=""
+                    fill
+                    sizes="(min-width: 640px) 384px, 80vw"
+                    className="object-cover"
+                  />
                 </div>
-                <img
+                <Image
                   src={item.img}
                   alt={item.thumbnailAlt ?? t(`project${item.id}.title`)}
-                  loading="lazy"
-                  className="z-10 absolute bottom-0 max-h-full max-w-full object-contain"
+                  fill
+                  sizes="(min-width: 640px) 384px, 80vw"
+                  className="z-10 object-contain object-bottom"
                 />
               </div>
 
@@ -93,7 +101,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="" loading="lazy" className="p-2" />
+                      <Image src={icon} alt="" width={40} height={40} className="p-2" />
                     </div>
                   ))}
                 </div>

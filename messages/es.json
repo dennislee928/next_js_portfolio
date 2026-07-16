@@ -37,7 +37,7 @@
     }
   },
   "Projects": {
-    "heading": "Una pequeña selección de mis proyectos {highlight}",
+    "heading": "Una pequeña selección de mis proyectos <highlight>recientes</highlight>",
     "highlight": "recientes",
     "subheading": "Trabajo en vivo de dennisleehappy.org junto con las superficies obligatorias de AI trust y defense; conectividad verificada el 16 de julio de 2026.",
     "project1": {
@@ -94,7 +94,7 @@
     }
   },
   "Experience": {
-    "heading": "Mi {highlight}",
+    "heading": "Mi <highlight>experiencia laboral</highlight>",
     "highlight": "experiencia laboral",
     "exp1": {
       "title": "Ingeniero Frontend Principal-Bityacht.io",
@@ -114,7 +114,7 @@
     }
   },
   "Approach": {
-    "heading": "Mi {highlight}",
+    "heading": "Mi <highlight>enfoque</highlight>",
     "highlight": "enfoque",
     "phase1": {
         "order": "Fase 1",
@@ -133,7 +133,7 @@
     }
   },
   "Footer": {
-    "heading": "¿Listo para llevar {highlight} al siguiente nivel?",
+    "heading": "¿Listo para llevar <highlight>tu presencia digital</highlight> al siguiente nivel?",
     "highlight": "tu presencia digital",
     "subheading": "Contáctame hoy y discutamos cómo puedo ayudarte a alcanzar tus objetivos.",
     "cta": "Pongámonos en contacto",

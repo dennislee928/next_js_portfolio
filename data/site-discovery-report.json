@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T06:37:01.093Z",
+  "generatedAt": "2026-07-16T06:58:09.381Z",
   "rootDomain": "dennisleehappy.org",
   "portfolioUrl": "https://www.dennisleehappy.org/en",
   "summary": {
@@ -16,7 +16,7 @@
       "status": 200,
       "finalUrl": "https://api.dennisleehappy.org/",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 202,
+      "latencyMs": 222,
       "required": false,
       "containsRootDomain": true,
       "value": "Keep: API gateway target used by AI trust and ADM demos."
@@ -28,7 +28,7 @@
       "status": 200,
       "finalUrl": "https://essentia.dennisleehappy.org/",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 314,
+      "latencyMs": 232,
       "required": false,
       "containsRootDomain": true,
       "value": "Keep: distinctive audio/AI interface, visually different from other cards."
@@ -40,7 +40,7 @@
       "status": 200,
       "finalUrl": "https://inclusive-ai-trust-gateway-web.vercel.app/",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 183,
+      "latencyMs": 198,
       "required": true,
       "containsRootDomain": false,
       "value": "Must have: primary AI trust and governance frontend."
@@ -52,7 +52,7 @@
       "status": 200,
       "finalUrl": "https://jest-test-team.github.io/Agentic-Defense-Matrix-ADM/?api=https://api.dennisleehappy.org&gw=https://api.dennisleehappy.org",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 371,
+      "latencyMs": 302,
       "required": true,
       "containsRootDomain": true,
       "value": "Must have: ADM defense matrix preconfigured with api.dennisleehappy.org."
@@ -64,7 +64,7 @@
       "status": 200,
       "finalUrl": "https://shipeng-dev.dennisleehappy.org/login",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 633,
+      "latencyMs": 523,
       "required": false,
       "containsRootDomain": true,
       "value": "Keep: live construction/project-management product surface; strongest business-app example."
@@ -76,7 +76,7 @@
       "status": 200,
       "finalUrl": "https://web3.dennisleehappy.org/",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 631,
+      "latencyMs": 534,
       "required": false,
       "containsRootDomain": true,
       "value": "Keep: live Web3 UI, useful for frontend and smart-contract credibility."
@@ -88,7 +88,7 @@
       "status": 200,
       "finalUrl": "https://www.dennisleehappy.org/en",
       "contentType": "text/html; charset=utf-8",
-      "latencyMs": 578,
+      "latencyMs": 765,
       "required": false,
       "containsRootDomain": true,
       "value": "Root portfolio: source page for domain-link discovery."

@@ -39,6 +39,7 @@
   "Projects": {
     "heading": "精選 {highlight} 專案",
     "highlight": "近期",
+    "subheading": "整理 dennisleehappy.org 旗下已上線作品，以及指定必須呈現的 AI trust / defense 介面；連線狀態已於 2026-07-16 檢查。",
     "project1": {
       "title": "碳權交易平台 Carboon",
       "desc": "Golang + Supabase 架構 API，含 Swagger 文件與 JWT RBAC"
@@ -78,6 +79,18 @@
     "project10": {
       "title": "IELTS 學習遊戲",
       "desc": "互動式 IELTS 練習平台"
+    },
+    "project11": {
+      "title": "Inclusive AI Trust Gateway",
+      "desc": "AI 應用的 policy、gateway 與 trust 控制介面，作為主要 AI governance 前端展示"
+    },
+    "project12": {
+      "title": "Agentic Defense Matrix ADM",
+      "desc": "已預先串接 api.dennisleehappy.org 的 GitHub Pages 防禦矩陣介面"
+    },
+    "project13": {
+      "title": "dennisleehappy.org API Gateway",
+      "desc": "支撐 AI trust 與 defense 展示的線上 API gateway"
     }
   },
   "Experience": {

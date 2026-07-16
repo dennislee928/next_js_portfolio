@@ -1,0 +1,33 @@
+name: Discover dennisleehappy.org Sites
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    name: Refresh domain discovery report
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Discover and check sites
+        run: node scripts/discover-dennisleehappy-sites.mjs
+
+      - name: Upload discovery report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dennisleehappy-site-discovery
+          path: data/site-discovery-report.json

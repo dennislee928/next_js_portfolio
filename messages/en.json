@@ -39,6 +39,7 @@
   "Projects": {
     "heading": "A small selection of my {highlight} projects",
     "highlight": "recent",
+    "subheading": "Live and high-signal work from dennisleehappy.org plus the required AI trust and defense surfaces, with reachability checked on July 16, 2026.",
     "project1": {
       "title": "Carbon Credit Trading Platform Carboon",
       "desc": "Golang backend with Supabase, Swagger docs and JWT RBAC"
@@ -78,6 +79,18 @@
     "project10": {
       "title": "IELTS Learning Game",
       "desc": "Interactive IELTS practice platform"
+    },
+    "project11": {
+      "title": "Inclusive AI Trust Gateway",
+      "desc": "Policy, gateway and trust controls for AI applications, presented as the primary AI governance frontend"
+    },
+    "project12": {
+      "title": "Agentic Defense Matrix ADM",
+      "desc": "GitHub Pages defense matrix preconfigured to use api.dennisleehappy.org for API and gateway traffic"
+    },
+    "project13": {
+      "title": "dennisleehappy.org API Gateway",
+      "desc": "Live API gateway backing the AI trust and defense demonstrations"
     }
   },
   "Experience": {

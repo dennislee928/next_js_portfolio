@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-label="Bitfinex Funding Bot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090b1a"/>
+      <stop offset="60%" stop-color="#0d1024"/>
+      <stop offset="100%" stop-color="#141935"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="18%" r="62%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <rect width="1280" height="800" fill="url(#grid)"/>
+  <rect width="1280" height="800" fill="url(#glow)"/>
+
+  <rect x="88" y="132" width="76" height="6" rx="3" fill="#22d3ee"/>
+
+  <g font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    <text x="88" y="196" font-size="26" font-weight="600" letter-spacing="3.4" fill="#22d3ee" fill-opacity="0.92">REPOSITORY</text>
+    <text font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1"><tspan x="88" y="360">Bitfinex Funding Bot</tspan></text>
+    <text x="88" y="454" font-size="28" fill="#9aa0c3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">dennislee928/fundbot-go</text>
+  </g>
+
+  <rect x="0" y="792" width="1280" height="8" fill="#22d3ee" fill-opacity="0.5"/>
+</svg>

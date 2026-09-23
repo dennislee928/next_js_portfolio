@@ -5,7 +5,8 @@
     "techStack": "技術スタック",
     "projects": "プロジェクト",
     "certifications": "資格",
-    "contact": "お問い合わせ"
+    "contact": "お問い合わせ",
+    "allProjects": "すべてのプロジェクト"
   },
   "Hero": {
     "welcome": "👋 こんにちは、Dennis Lee です",
@@ -37,60 +38,162 @@
     }
   },
   "Projects": {
-    "heading": "厳選された <highlight>最近の</highlight> プロジェクト",
-    "highlight": "最近の",
-    "subheading": "dennisleehappy.org 配下の公開済みプロジェクトと、必須表示の AI trust / defense 画面を整理しました。到達性は 2026-07-16 に確認済みです。",
-    "project1": {
-      "title": "炭素クレジット取引プラットフォーム Carboon",
-      "desc": "Golang + Supabase バックエンド、Swaggerドキュメント、JWT RBAC"
-    },
-    "project2": {
-      "title": "Web3 インタラクションプラットフォーム",
-      "desc": "スマートコントラクト連携、RWD UI、セキュリティ指向設計"
-    },
-    "project3": {
-      "title": "Cloudflare DNS フェイルオーバー & セキュリティガバナンス",
-      "desc": "DNS自動切り替え + WAFルール更新"
-    },
-    "project4": {
-      "title": "ファームウェア分析ラボ",
-      "desc": "YARAスキャンとCAN Busシミュレーションツールによるファームウェア静的分析"
-    },
-    "project5": {
-      "title": "サイドプロジェクト バックエンド",
-      "desc": "GCP Cloud Run上で動作するFlask API"
-    },
-    "project6": {
-      "title": "Cloudflare AI 画像生成",
-      "desc": "Cloudflare WorkersとJSを使用したAI画像生成"
-    },
-    "project7": {
-      "title": "Bitfinex レンディングボット (WIP)",
-      "desc": "YAML設定を使用したGolang自動レンディング戦略"
-    },
-    "project8": {
-      "title": "CityInsight 360",
-      "desc": "建設プロジェクト管理プラットフォーム"
-    },
-    "project9": {
-      "title": "量子オーディオ分析システム",
-      "desc": "サイバーパンク風量子オーディオ分析システム"
-    },
-    "project10": {
-      "title": "IELTS 学習ゲーム",
-      "desc": "インタラクティブなIELTS練習プラットフォーム"
-    },
-    "project11": {
-      "title": "Inclusive AI Trust Gateway",
-      "desc": "AIアプリ向けのポリシー、ゲートウェイ、信頼制御を示す主要なAIガバナンスUI"
-    },
-    "project12": {
-      "title": "Agentic Defense Matrix ADM",
-      "desc": "api.dennisleehappy.org をAPIとゲートウェイに設定したGitHub Pagesの防御マトリクス"
-    },
-    "project13": {
-      "title": "dennisleehappy.org API Gateway",
-      "desc": "AI trust と defense デモを支える公開APIゲートウェイ"
+    "heading": "厳選した<highlight>最近</highlight>のプロジェクト",
+    "subheading": "dennisleehappy.org と zekequiskitz.dpdns.org で公開中の 36 件から選んだ 3 つのハイライト。残りは目的別にご覧ください。",
+    "browseByCategory": "カテゴリーで見る",
+    "liveSite": "サイトを開く",
+    "viewDemo": "デモを見る",
+    "repository": "リポジトリ",
+    "ztnaBadge": "Cloudflare Access",
+    "featuredBadge": "ハイライト",
+    "gatedNote": "サインインが必要 — ZTNA ポリシーの適用を示すため Cloudflare Access の背後に公開しています。",
+    "viewAll": "36 件すべてを見る",
+    "projectCount": "{count} 件",
+    "items": {
+      "inclusive-ai-trust-gateway": {
+        "title": "Inclusive AI Trust Gateway",
+        "desc": "公共サービス向け AI の評価・保護プラットフォーム。モデルが本番に出る前にインクルージョン監査を実施します。"
+      },
+      "agentic-defense-matrix": {
+        "title": "Agentic Defense Matrix",
+        "desc": "エージェント型システム向けのレッド／ブルー／グリーンチーム対抗コンソール。api.dennisleehappy.org ゲートウェイに接続しています。"
+      },
+      "hexstrike-attack-dashboard": {
+        "title": "HexStrike Attack Dashboard",
+        "desc": "模擬攻撃の実行を編成し、結果を確認するための攻撃側セキュリティコンソール。"
+      },
+      "iot-knowledge-search": {
+        "title": "IoT ナレッジ検索システム",
+        "desc": "Cloudflare AutoRAG を活用した IoT 向けインテリジェント知識検索プラットフォーム。"
+      },
+      "mcp-remote-auth": {
+        "title": "MCP リモート認証デモ",
+        "desc": "Model Context Protocol サーバー向けリモート認証のリファレンス実装。"
+      },
+      "pqc-digital-twin": {
+        "title": "PQC 移行デジタルツイン",
+        "desc": "ポスト量子暗号への移行準備状況とリスクを可視化する運用ダッシュボード。"
+      },
+      "ztna-ops-panel": {
+        "title": "ゼロトラスト運用パネル",
+        "desc": "Cloudflare Access の背後に公開した内部運用パネル。ZTNA のポリシー設計と適用を示しています。"
+      },
+      "cloudflare-dns-failover": {
+        "title": "Cloudflare DNS フェイルオーバーとセキュリティガバナンス",
+        "desc": "Cloudflare アカウント横断での DNS 自動フェイルオーバーと WAF ルール管理。"
+      },
+      "firmware-analysis-lab": {
+        "title": "ファームウェア解析ラボ",
+        "desc": "YARA スキャンと CAN Bus シミュレーションを組み合わせたファームウェア静的解析。"
+      },
+      "web3-interaction-platform": {
+        "title": "Web3 インタラクションプラットフォーム",
+        "desc": "ウォレット接続に対応したスマートコントラクト操作プラットフォーム。完全レスポンシブ UI。"
+      },
+      "mirage-exchange": {
+        "title": "蜃気楼取引所 Mirage Exchange",
+        "desc": "極端な高並行性を前提とした仮想情報オークション。研究用途。"
+      },
+      "bitcoin24": {
+        "title": "Bitcoin24 戦略シミュレーター",
+        "desc": "21 年間のマクロ予測とミクロモデルで、個人・企業・機関・国家によるビットコイン採用をシミュレーションします。"
+      },
+      "crypto-info-site": {
+        "title": "暗号資産インフォサイト",
+        "desc": "暗号資産のリアルタイム価格と各種指標を集約するマーケットダッシュボード。"
+      },
+      "noir-zk-recovery": {
+        "title": "Noir ZK リカバリーデモ",
+        "desc": "Noir で記述したゼロ知識証明によるアカウント復旧回路。"
+      },
+      "ksn-sovereign-asset": {
+        "title": "KSN — ソブリンアセット",
+        "desc": "トークン化されたエネルギー・コンピュート基盤と、マイクログリッドのリアルタイム運用。"
+      },
+      "carbon-trading-platform": {
+        "title": "カーボン取引プラットフォーム",
+        "desc": "個人向けカーボン取引・管理プラットフォーム。Go 製 API に Supabase、Swagger ドキュメント、JWT RBAC を組み合わせています。"
+      },
+      "stock-payment-sandbox": {
+        "title": "株式決済シミュレーター",
+        "desc": "Nuxt 3、ECPay のテスト決済環境、TWSE Open API を軸にした投資家向け発注シミュレーションプラットフォーム。"
+      },
+      "bitfinex-funding-bot": {
+        "title": "Bitfinex ファンディングボット",
+        "desc": "Go で実装し YAML で設定する自動レンディング戦略。開発中です。"
+      },
+      "qcaas": {
+        "title": "QCaaS — 量子回路をサービスとして",
+        "desc": "量子回路の最適化、コスト試算、ビジネス言語への翻訳を API として提供します。"
+      },
+      "essentia-quantum-audio": {
+        "title": "量子オーディオ解析システム",
+        "desc": "フーリエ変換の可視化を伴うリアルタイム量子オーディオ解析。"
+      },
+      "life-3-0-doomsday-clock": {
+        "title": "Life 3.0 終末時計",
+        "desc": "AI シナリオのリスクシグナルを終末時計として追跡するダッシュボード。"
+      },
+      "datacenter-builder-simulator": {
+        "title": "データセンター建設シミュレーター",
+        "desc": "レゴのような操作でデータセンターを構築し、Uptime、TIA-942、ASHRAE、NFPA、ISO 27001、EU EED に照らして採点。検証可能な証明書を取得できます。"
+      },
+      "feeder-ide-digital-twin": {
+        "title": "Feeder IDE",
+        "desc": "フィーダーシステムのデジタルツイン兼設計プラットフォーム。ブラウザ内モデリング環境を備えます。"
+      },
+      "cityinsight-360": {
+        "title": "CityInsight 360",
+        "desc": "設備、作業指示、現場報告までを網羅するワンストップのスマートビル管理ソリューション。"
+      },
+      "livehouse-aas": {
+        "title": "LiveHouseAAS",
+        "desc": "台湾のライブハウスとインディーズ音楽のための SaaS 統合プラットフォーム。スケジュール管理、チケット・決済、データ分析。"
+      },
+      "government-data-hub": {
+        "title": "政府データ統合プラットフォーム",
+        "desc": "台湾のオープンガバメントデータと Dcard API を統合し、施設検索や記事閲覧を提供します。"
+      },
+      "fermy": {
+        "title": "Fermy — 奄美大島発、革新的な発酵ドリンク",
+        "desc": "伝統の知恵と現代のテクノロジーが出会い、新しい発酵文化が生まれる。奄美大島の伝統飲料「ミキ」とヤギミルクを掛け合わせた発酵ドリンク。"
+      },
+      "academy-central": {
+        "title": "Academy Central",
+        "desc": "App Router で構築したフロントエンド技術の発信・学習ブログ。"
+      },
+      "nthing-ui": {
+        "title": "NThing-UI",
+        "desc": "再利用可能なデザインシステムとそのプリミティブを紹介するコンポーネントライブラリのデモ。"
+      },
+      "chipwhisperer-workbench": {
+        "title": "ChipWhisperer ワークベンチ",
+        "desc": "サイドチャネル解析のためのローカル ChipWhisperer ラボ制御と Apple Silicon 環境構築。"
+      },
+      "qu-lab": {
+        "title": "Qu-Lab",
+        "desc": "クロスプラットフォーム UI ビルドを試すための Quasar ベースの実験ワークスペース。"
+      },
+      "ielts-writing-error-tester": {
+        "title": "IELTS ライティング誤り診断",
+        "desc": "IELTS ライティングでよくある誤りを洗い出して解説するインタラクティブ演習。"
+      },
+      "life-design-8bit": {
+        "title": "Life Design App — 8-BIT エディション",
+        "desc": "DevSecOps の原則で人生を設計する、レトロゲーム風アプリ。"
+      },
+      "mission-dao": {
+        "title": "Mission DAO",
+        "desc": "CubeSat ミッションの資金調達とガバナンスを市民が担う宇宙探査プラットフォーム。"
+      },
+      "cloudflare-ai-image-generation": {
+        "title": "Cloudflare AI 画像生成",
+        "desc": "エッジの Cloudflare Workers AI 上で動作するテキストから画像への生成。"
+      },
+      "side-project-backend": {
+        "title": "サイドプロジェクト バックエンド",
+        "desc": "GCP Cloud Run 上にデプロイした Flask API。コンテナ化により再現性のあるデプロイを実現。"
+      }
     }
   },
   "Experience": {
@@ -117,19 +220,19 @@
     "heading": "私の <highlight>アプローチ</highlight>",
     "highlight": "アプローチ",
     "phase1": {
-        "order": "フェーズ 1",
-        "title": "計画と戦略",
-        "desc": "Webサイトの目標、ターゲット層、主要機能を定義します。サイト構造、ナビゲーション、コンテンツ要件について話し合います。"
+      "order": "フェーズ 1",
+      "title": "計画と戦略",
+      "desc": "Webサイトの目標、ターゲット層、主要機能を定義します。サイト構造、ナビゲーション、コンテンツ要件について話し合います。"
     },
     "phase2": {
-        "order": "フェーズ 2",
-        "title": "開発と進捗更新",
-        "desc": "計画に合意したら、Lo-Fiプレイリストを聴きながらコーディングに没頭します。初期スケッチから完成したコードまで、常に進捗を更新します。"
+      "order": "フェーズ 2",
+      "title": "開発と進捗更新",
+      "desc": "計画に合意したら、Lo-Fiプレイリストを聴きながらコーディングに没頭します。初期スケッチから完成したコードまで、常に進捗を更新します。"
     },
     "phase3": {
-        "order": "フェーズ 3",
-        "title": "開発とローンチ",
-        "desc": "魔法の時間です！承認されたデザインに基づいて、すべてを機能的なコードに変換し、Webサイトをゼロから構築します。"
+      "order": "フェーズ 3",
+      "title": "開発とローンチ",
+      "desc": "魔法の時間です！承認されたデザインに基づいて、すべてを機能的なコードに変換し、Webサイトをゼロから構築します。"
     }
   },
   "Footer": {
@@ -138,5 +241,38 @@
     "subheading": "今すぐご連絡ください。目標達成のお手伝いをさせていただきます。",
     "cta": "お問い合わせ",
     "copyright": "Copyright © 2025 Dennis Lee"
+  },
+  "ProjectCategories": {
+    "ai-security": {
+      "name": "AI とセキュリティ",
+      "desc": "トラストゲートウェイ、エージェント防御、RAG、ポスト量子への備え。"
+    },
+    "web3-fintech": {
+      "name": "Web3 とフィンテック",
+      "desc": "取引所、ゼロ知識証明、カーボン市場、決済サンドボックス。"
+    },
+    "quantum-simulation": {
+      "name": "量子とシミュレーション",
+      "desc": "量子回路のサービス化、デジタルツイン、シナリオシミュレーター。"
+    },
+    "business-platforms": {
+      "name": "ビジネスプラットフォーム",
+      "desc": "ビル、会場、公共データ、ブランド向けの本番 SaaS。"
+    },
+    "developer-tools": {
+      "name": "開発者ツール",
+      "desc": "コンポーネントライブラリとハードウェアラボのワークベンチ。"
+    },
+    "labs-experiments": {
+      "name": "ラボと実験",
+      "desc": "DAO、エッジ AI、学習ツールを探る小規模なプロジェクト。"
+    }
+  },
+  "ProjectsPage": {
+    "title": "プロジェクト",
+    "subtitle": "目的別に分類した 36 件のプロジェクト。",
+    "backToProjects": "すべてのプロジェクト",
+    "backHome": "ホームへ戻る",
+    "notFound": "カテゴリーが見つかりません。"
   }
 }

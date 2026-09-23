@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T15:01:16.289Z",
+  "generatedAt": "2026-09-23T15:18:48.855Z",
   "roots": [
     "dennisleehappy.org",
     "zekequiskitz.dpdns.org"
@@ -9,10 +9,10 @@
     "enumeratedHosts": 75,
     "liveHosts": 48,
     "frontends": 31,
-    "apisExcluded": 20,
+    "apisExcluded": 5,
     "gated": 5,
     "placeholders": 2,
-    "dead": 13,
+    "dead": 28,
     "duplicates": 5,
     "requiredUrls": 2,
     "requiredLiveUrls": 2
@@ -27,7 +27,7 @@
       "title": "Academy Central",
       "description": "Academy Central 前端部落格",
       "ogImage": null,
-      "latencyMs": 792,
+      "latencyMs": 233,
       "required": false
     },
     {
@@ -39,7 +39,7 @@
       "title": "Crypto Info Site",
       "description": null,
       "ogImage": null,
-      "latencyMs": 116,
+      "latencyMs": 540,
       "required": false
     },
     {
@@ -51,7 +51,7 @@
       "title": "Bitcoin24 - 21-Year Bitcoin Investment Strategy Simulator",
       "description": "Helping you drive Bitcoin adoption with 21-year macro forecasts and micro models. Simulate individual, corporate, institutional, and nation-state Bitcoin strategies.",
       "ogImage": null,
-      "latencyMs": 913,
+      "latencyMs": 920,
       "required": false
     },
     {
@@ -75,7 +75,7 @@
       "title": "碳交易平台",
       "description": "個人碳交易與管理平台",
       "ogImage": null,
-      "latencyMs": 388,
+      "latencyMs": 141,
       "required": false
     },
     {
@@ -87,7 +87,7 @@
       "title": "Workbench",
       "description": "Local ChipWhisperer lab control and Apple Silicon setup.",
       "ogImage": null,
-      "latencyMs": 388,
+      "latencyMs": 234,
       "required": false
     },
     {
@@ -99,7 +99,7 @@
       "title": "MCP Remote Auth Demo - Home",
       "description": null,
       "ogImage": null,
-      "latencyMs": 486,
+      "latencyMs": 769,
       "required": false
     },
     {
@@ -111,7 +111,7 @@
       "title": "Mission DAO",
       "description": "Citizen space exploration platform — fund and govern CubeSat missions",
       "ogImage": null,
-      "latencyMs": 167,
+      "latencyMs": 197,
       "required": false
     },
     {
@@ -123,7 +123,7 @@
       "title": "Datacenter Builder Simulator",
       "description": "Build a data center in a Lego/Minecraft style, get rated against Uptime, TIA-942, ASHRAE, NFPA, ISO 27001, EU EED, and earn a verifiable certificate.",
       "ogImage": null,
-      "latencyMs": 1380,
+      "latencyMs": 523,
       "required": false
     },
     {
@@ -135,7 +135,7 @@
       "title": "Dennis's Portfolio",
       "description": "My Portfolio 2024",
       "ogImage": null,
-      "latencyMs": 875,
+      "latencyMs": 945,
       "required": false
     },
     {
@@ -147,7 +147,7 @@
       "title": "Life Design App - 8-BIT EDITION",
       "description": "Design your life with DevSecOps principles - Retro Gaming Style",
       "ogImage": null,
-      "latencyMs": 456,
+      "latencyMs": 203,
       "required": false
     },
     {
@@ -159,7 +159,7 @@
       "title": "Quantum Audio Analysis System",
       "description": "Real-time quantum audio analysis with Fourier transform visualization",
       "ogImage": null,
-      "latencyMs": 367,
+      "latencyMs": 208,
       "required": false
     },
     {
@@ -171,7 +171,7 @@
       "title": "Feeder IDE - Digital Twin & Design Platform",
       "description": null,
       "ogImage": null,
-      "latencyMs": 321,
+      "latencyMs": 186,
       "required": false
     },
     {
@@ -183,7 +183,7 @@
       "title": "政府資料整合平台",
       "description": "整合政府資料開放平台與 Dcard API，提供設施查詢、文章瀏覽等服務",
       "ogImage": null,
-      "latencyMs": 409,
+      "latencyMs": 159,
       "required": false
     },
     {
@@ -195,7 +195,7 @@
       "title": "HexStrike Attack Dashboard",
       "description": null,
       "ogImage": null,
-      "latencyMs": 431,
+      "latencyMs": 501,
       "required": false
     },
     {
@@ -207,7 +207,7 @@
       "title": "IELTS Writing Error Tester v3",
       "description": null,
       "ogImage": null,
-      "latencyMs": 459,
+      "latencyMs": 441,
       "required": false
     },
     {
@@ -219,7 +219,7 @@
       "title": "Inclusive AI Trust Gateway",
       "description": "Public-service AI evaluation and protection platform: inclusion auditing before launch, agent safety during operation.",
       "ogImage": null,
-      "latencyMs": 139,
+      "latencyMs": 152,
       "required": false
     },
     {
@@ -231,7 +231,7 @@
       "title": "ADM Battle Console",
       "description": "Live status of the Agentic Defense Matrix red/blue/green exercise",
       "ogImage": null,
-      "latencyMs": 215,
+      "latencyMs": 466,
       "required": true
     },
     {
@@ -243,7 +243,7 @@
       "title": "KSN — Sovereign Asset",
       "description": "Scene 10: Sovereign Asset. Tokenized energy-compute infrastructure with live microgrid operations.",
       "ogImage": null,
-      "latencyMs": 449,
+      "latencyMs": 181,
       "required": false
     },
     {
@@ -255,7 +255,7 @@
       "title": "Life 3.0 Doomsday Clock",
       "description": "Life 3.0 doomsday clock dashboard for AI scenario risk signals.",
       "ogImage": null,
-      "latencyMs": 343,
+      "latencyMs": 121,
       "required": false
     },
     {
@@ -267,7 +267,7 @@
       "title": "LiveHouseAAS - Live House 展演整合平台",
       "description": "台灣 Live House 與獨立音樂的 SaaS 整合平台 - 檔期管理、票務金流、數據分析",
       "ogImage": null,
-      "latencyMs": 425,
+      "latencyMs": 623,
       "required": false
     },
     {
@@ -279,7 +279,7 @@
       "title": "蜃景交易所 | Mirage Exchange",
       "description": "極端高併發虛擬情報拍賣 — 研究用",
       "ogImage": null,
-      "latencyMs": 353,
+      "latencyMs": 169,
       "required": false
     },
     {
@@ -291,7 +291,7 @@
       "title": "Noir ZK Recovery Demo",
       "description": null,
       "ogImage": null,
-      "latencyMs": 267,
+      "latencyMs": 295,
       "required": false
     },
     {
@@ -303,7 +303,7 @@
       "title": "NThing-UI Demo",
       "description": null,
       "ogImage": null,
-      "latencyMs": 398,
+      "latencyMs": 441,
       "required": false
     },
     {
@@ -315,7 +315,7 @@
       "title": "PQC Migration Digital Twin Dashboard",
       "description": "Operational dashboard scaffold for PQC migration readiness and risk visibility.",
       "ogImage": null,
-      "latencyMs": 777,
+      "latencyMs": 562,
       "required": false
     },
     {
@@ -327,7 +327,7 @@
       "title": "Quasar App",
       "description": null,
       "ogImage": null,
-      "latencyMs": 425,
+      "latencyMs": 581,
       "required": false
     },
     {
@@ -339,7 +339,7 @@
       "title": "IoT Knowledge Search System",
       "description": "Intelligent IoT knowledge search platform powered by Cloudflare AutoRAG",
       "ogImage": null,
-      "latencyMs": 152,
+      "latencyMs": 256,
       "required": false
     },
     {
@@ -351,7 +351,7 @@
       "title": "CityInsight360 - 智慧建築管理平台",
       "description": "一站式智慧建築管理解決方案",
       "ogImage": null,
-      "latencyMs": 152,
+      "latencyMs": 242,
       "required": false
     },
     {
@@ -363,7 +363,7 @@
       "title": "股票付款模擬平台",
       "description": "以 Nuxt 3 + ECPay 金流測試環境 + TWSE Open API 為核心，打造投資人模擬下單平台",
       "ogImage": null,
-      "latencyMs": 767,
+      "latencyMs": 1552,
       "required": false
     },
     {
@@ -375,7 +375,7 @@
       "title": "React App",
       "description": "Web site created using create-react-app",
       "ogImage": null,
-      "latencyMs": 89,
+      "latencyMs": 152,
       "required": false
     },
     {
@@ -387,48 +387,11 @@
       "title": "QCaaS",
       "description": "Quantum circuit optimisation, cost estimation and business-language interpretation as an API.",
       "ogImage": null,
-      "latencyMs": 738,
+      "latencyMs": 1372,
       "required": false
     }
   ],
   "apis": [
-    {
-      "host": "api-devsecops-x-life-design.dennisleehappy.org",
-      "url": "https://api-devsecops-x-life-design.dennisleehappy.org/",
-      "status": 503,
-      "finalUrl": "https://api-devsecops-x-life-design.dennisleehappy.org/",
-      "contentType": "text/html; charset=utf-8",
-      "title": "Service Suspended",
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 842,
-      "required": false
-    },
-    {
-      "host": "api-mirage-exchange.dennisleehappy.org",
-      "url": "https://api-mirage-exchange.dennisleehappy.org/",
-      "status": 404,
-      "finalUrl": "https://api-mirage-exchange.dennisleehappy.org/",
-      "contentType": "text/plain",
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 460,
-      "required": false
-    },
-    {
-      "host": "api-siep-microservices-lab.dennisleehappy.org",
-      "url": "https://api-siep-microservices-lab.dennisleehappy.org/",
-      "status": 0,
-      "finalUrl": null,
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 20011,
-      "required": false,
-      "error": "This operation was aborted"
-    },
     {
       "host": "api.dennisleehappy.org",
       "url": "https://api.dennisleehappy.org/",
@@ -438,95 +401,7 @@
       "title": "ADM Battle Console — Red vs Blue vs Green",
       "description": null,
       "ogImage": null,
-      "latencyMs": 134,
-      "required": false
-    },
-    {
-      "host": "apiv1-carbontrading.dennisleehappy.org",
-      "url": "https://apiv1-carbontrading.dennisleehappy.org/",
-      "status": 0,
-      "finalUrl": null,
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 20011,
-      "required": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "host": "apiv1.carbontrading.dennisleehappy.org",
-      "url": "https://apiv1.carbontrading.dennisleehappy.org/",
-      "status": 0,
-      "finalUrl": null,
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 14,
-      "required": false,
-      "error": "fetch failed"
-    },
-    {
-      "host": "apiv1.dennisleehappy.org",
-      "url": "https://apiv1.dennisleehappy.org/",
-      "status": 0,
-      "finalUrl": null,
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 11,
-      "required": false,
-      "error": "fetch failed"
-    },
-    {
-      "host": "coincap-api.dennisleehappy.org",
-      "url": "https://coincap-api.dennisleehappy.org/",
-      "status": 404,
-      "finalUrl": "https://coincap-api.dennisleehappy.org/",
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 431,
-      "required": false
-    },
-    {
-      "host": "kong-monitor.dennisleehappy.org",
-      "url": "https://kong-monitor.dennisleehappy.org/",
-      "status": 0,
-      "finalUrl": null,
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 160,
-      "required": false,
-      "error": "fetch failed"
-    },
-    {
-      "host": "kong-portal.dennisleehappy.org",
-      "url": "https://kong-portal.dennisleehappy.org/",
-      "status": 404,
-      "finalUrl": "https://kong-portal.dennisleehappy.org/",
-      "contentType": "application/json",
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 918,
-      "required": false
-    },
-    {
-      "host": "life-3-0-api.dennisleehappy.org",
-      "url": "https://life-3-0-api.dennisleehappy.org/",
-      "status": 404,
-      "finalUrl": "https://life-3-0-api.dennisleehappy.org/",
-      "contentType": "text/plain; charset=utf-8",
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 445,
+      "latencyMs": 1835,
       "required": false
     },
     {
@@ -538,7 +413,7 @@
       "title": "Life 3.0 Doomsday Clock",
       "description": "Life 3.0 doomsday clock dashboard for AI scenario risk signals.",
       "ogImage": null,
-      "latencyMs": 136,
+      "latencyMs": 539,
       "required": false
     },
     {
@@ -550,7 +425,7 @@
       "title": "Life 3.0 Doomsday Clock",
       "description": "Life 3.0 doomsday clock dashboard for AI scenario risk signals.",
       "ogImage": null,
-      "latencyMs": 142,
+      "latencyMs": 189,
       "required": false
     },
     {
@@ -562,7 +437,7 @@
       "title": "Life 3.0 Doomsday Clock",
       "description": "Life 3.0 doomsday clock dashboard for AI scenario risk signals.",
       "ogImage": null,
-      "latencyMs": 810,
+      "latencyMs": 936,
       "required": false
     },
     {
@@ -574,69 +449,8 @@
       "title": "Vite App",
       "description": null,
       "ogImage": null,
-      "latencyMs": 443,
+      "latencyMs": 511,
       "required": false
-    },
-    {
-      "host": "r2-logs.dennisleehappy.org",
-      "url": "https://r2-logs.dennisleehappy.org/",
-      "status": 404,
-      "finalUrl": "https://r2-logs.dennisleehappy.org/",
-      "contentType": "text/html",
-      "title": "Not Found",
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 447,
-      "required": false
-    },
-    {
-      "host": "t5-cf-dashboard.dennisleehappy.org",
-      "url": "https://t5-cf-dashboard.dennisleehappy.org/",
-      "status": 500,
-      "finalUrl": "https://t5-cf-dashboard.dennisleehappy.org/",
-      "contentType": "application/json",
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 717,
-      "required": false
-    },
-    {
-      "host": "unified-ai-quantum.dennisleehappy.org",
-      "url": "https://unified-ai-quantum.dennisleehappy.org/",
-      "status": 404,
-      "finalUrl": "https://unified-ai-quantum.dennisleehappy.org/",
-      "contentType": "application/json",
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 427,
-      "required": false
-    },
-    {
-      "host": "unified-backen.dennisleehappy.org",
-      "url": "https://unified-backen.dennisleehappy.org/",
-      "status": 403,
-      "finalUrl": "https://unified-backen.dennisleehappy.org/",
-      "contentType": "application/json",
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 966,
-      "required": false
-    },
-    {
-      "host": "unified-backend-dcontainer.dennisleehappy.org",
-      "url": "https://unified-backend-dcontainer.dennisleehappy.org/",
-      "status": 0,
-      "finalUrl": null,
-      "contentType": null,
-      "title": null,
-      "description": null,
-      "ogImage": null,
-      "latencyMs": 6,
-      "required": false,
-      "error": "fetch failed"
     }
   ],
   "gated": [
@@ -644,60 +458,60 @@
       "host": "admin-dev.dennisleehappy.org",
       "url": "https://admin-dev.dennisleehappy.org/",
       "status": 200,
-      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/admin-dev.dennisleehappy.org?kid=079601435ed9dd9048fc9ac31d7b057c669cdac44d21a01ab6be500e73f27dd9&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjA3OTYwMTQzNWVkOWRkOTA0OGZjOWFjMzFkN2IwNTdjNjY5Y2RhYzQ0ZDIxYTAxYWI2YmU1MDBlNzNmMjdkZDkiLCJob3N0bmFtZSI6ImFkbWluLWRldi5kZW5uaXNsZWVoYXBweS5vcmciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5MDE3NTk1NiwibmJmIjoxNzkwMTc1NjU2LCJpYXQiOjE3OTAxNzU2NTYsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJUVyIsImFwcF9zZXNzaW9uX2hhc2giOiI0Nzc3OWUzYmQyYmRmMzIxOTc4MDVjMWFjNDE5OGZiYzg4YTYyZDI4OWJlZjhjMjA5ZGI5OWU0NGM3ZDNkNTkzIn0.g937VEetPKxUmsGouy-qRHQLg1ztnJWFbznnNNOxkOLxljFdYSsG-1_HuVyvTIOqs5IPhQieya5yAbvhXjWQGaqO5HjVVwCCuXQBg2_qxXyH4rMWfIEW5HUfwAdJUKfpKVYrhUjtQyQj_8Scnepdf1u3Iqlaeevkutndt3EgWkBxkB6loGkwbRHqgBK025Xt2gK3YFtculf6NQNMEkMZO1ngcfEw4W9YrHxgJhs7ezr43HReTmcPJi3XDIvSpkKtFj7x40MJW9b_HUi0fSke_YPaDIWrlLn_scy8HlHgRMizgKWnsUQuhBUABh9-YcJ4Rt06iS0PTAzPMrT7Tod_GA&redirect_url=%2F",
+      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/admin-dev.dennisleehappy.org?kid=079601435ed9dd9048fc9ac31d7b057c669cdac44d21a01ab6be500e73f27dd9&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjA3OTYwMTQzNWVkOWRkOTA0OGZjOWFjMzFkN2IwNTdjNjY5Y2RhYzQ0ZDIxYTAxYWI2YmU1MDBlNzNmMjdkZDkiLCJob3N0bmFtZSI6ImFkbWluLWRldi5kZW5uaXNsZWVoYXBweS5vcmciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5MDE3NzAwOSwibmJmIjoxNzkwMTc2NzA5LCJpYXQiOjE3OTAxNzY3MDksImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJUVyIsImFwcF9zZXNzaW9uX2hhc2giOiJjY2JhZjM2ODE0MjUyNTU0ZmM3MDZiN2FmZTViMTE0YjhiYzBlN2ZjZGQzMzM2NmUyZjU2ZDUyYTZhYzdhYTFiIn0.H7BwJsjynRULeZbFSlz5A57UT5YAgOr0wXtOObp3R5CzfdjlcIw1q_Fl7QTYVKElScBruKgepb7f-rQ6sVk0pCYw-QVSXghd_1wlfMOt-wemyspyP7w62gFD7Q4h6oVxF6fRgw3dLMJn06SKIPLE10d5t1mWSZQxUKhlAokOWTwyXRp4TazpmpYK144mLatz7GHqPbM9ch6mpH4BIR87_85r4bTYBK1Yj_wSw5RmJmWtIdzrsWvLBGNs_Jqb3Bd1ffG02KS3TrvPuma300LaDOEec4LnlmSzJ3g_bXJcLebciSuqkl0EPCh_2vuBmGOjoweY6mrH5jnMwLVC3SP8pA&redirect_url=%2F",
       "contentType": "text/html",
       "title": "Sign in ・ Cloudflare Access",
       "description": null,
       "ogImage": null,
-      "latencyMs": 1686,
+      "latencyMs": 1874,
       "required": false
     },
     {
       "host": "bk-creative-dev-frontstage.dennisleehappy.org",
       "url": "https://bk-creative-dev-frontstage.dennisleehappy.org/",
       "status": 200,
-      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/bk-creative-dev-frontstage.dennisleehappy.org?kid=f74b08d244929048cdfe173e04efba44da02103c0b65768e3b49418097231739&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImY3NGIwOGQyNDQ5MjkwNDhjZGZlMTczZTA0ZWZiYTQ0ZGEwMjEwM2MwYjY1NzY4ZTNiNDk0MTgwOTcyMzE3MzkiLCJob3N0bmFtZSI6ImJrLWNyZWF0aXZlLWRldi1mcm9udHN0YWdlLmRlbm5pc2xlZWhhcHB5Lm9yZyIsInJlZGlyZWN0X3VybCI6Ii8iLCJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwiZXhwIjoxNzkwMTc1OTU2LCJuYmYiOjE3OTAxNzU2NTYsImlhdCI6MTc5MDE3NTY1NiwiYXV0aF9zdGF0dXMiOiJOT05FIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX2RuIjoiIiwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNvbW1vbl9uYW1lIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sInJlYWxfY291bnRyeSI6IlRXIiwiYXBwX3Nlc3Npb25faGFzaCI6ImIxYzNhMjYzZTZkNWFiNzlhYmU0NzkxZjYxNzQ4MDc3NjdiNmQ2MmNlZDc0YmUxNTg5NjRmNjAzMGI3MTY0YWMifQ.lXKuHMlg0rF3TRwMUghs56wTQ_xwNei_cTj8WzudmKKQqHVX5u-whW4uWgOxfhRweCj6vWgvr_ZglkIFoEFmKQbvGB9DRnUDq2Ci9_VGoUU1SJ4vwpRy55Zh7HwBRVDydaGwNEYHpK18Gn-ByhShPspfw_Urw29O5scC3CM8RmBs_rcx_SQioCJ9lu5XHMgVa4yG5pLeWdVhRyGw0AsiMWOr5Gr8DMXwqnwChQ0lgigwpWu-bz0oBxFGpq_P7Zg70u2Nm0rXKUIJjTjBsg_ND6ipRrfppZn5C0icuNXIJA5AIG3StKCvQtH7XvXYums7ciSMIhaUls8IvmesXVFknw&redirect_url=%2F",
+      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/bk-creative-dev-frontstage.dennisleehappy.org?kid=f74b08d244929048cdfe173e04efba44da02103c0b65768e3b49418097231739&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImY3NGIwOGQyNDQ5MjkwNDhjZGZlMTczZTA0ZWZiYTQ0ZGEwMjEwM2MwYjY1NzY4ZTNiNDk0MTgwOTcyMzE3MzkiLCJob3N0bmFtZSI6ImJrLWNyZWF0aXZlLWRldi1mcm9udHN0YWdlLmRlbm5pc2xlZWhhcHB5Lm9yZyIsInJlZGlyZWN0X3VybCI6Ii8iLCJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwiZXhwIjoxNzkwMTc3MDA5LCJuYmYiOjE3OTAxNzY3MDksImlhdCI6MTc5MDE3NjcwOSwiYXV0aF9zdGF0dXMiOiJOT05FIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX2RuIjoiIiwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNvbW1vbl9uYW1lIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sInJlYWxfY291bnRyeSI6IlRXIiwiYXBwX3Nlc3Npb25faGFzaCI6IjVhMjRmNWVmMmEwNzY0ODljNGM3YjMwYjc4ZWUyODJmN2JhNzEzYzFlNzRiMzgyMWUzOWRiY2NkZmIzY2I3YzcifQ.Obv9-J9aWPBzXvObhDxWR-A4byAkqOBXK5uJI9Jz1fMBOcm3v0-LflSLiZBHnKhEzg-SYy8DycPisnbF5MN8q8uDs0pnAQezZo3ookvGNw7wUzCnTl_P6hgqxppYT_4DgueVC0d8hVS1_dQgwM7dU8-_FoITLbq0JPlS_pADVq1CMtqYgfK9W0ouHr1MC6Ve7YTaAXhnCTZloTNYtAS5bk7tRERyyebR1mLf-mYQpl34sxHDUi-euItaKKhkD8VJ-Lil6dqmJjmXR4NWDWhbgi9eCT93b-T3hgX-557ILBLe1-6WisS-5EdIleQ_btOvxMGH_xIlsBhkGoED3HspXw&redirect_url=%2F",
       "contentType": "text/html",
       "title": "Sign in ・ Cloudflare Access",
       "description": null,
       "ogImage": null,
-      "latencyMs": 1657,
+      "latencyMs": 1560,
       "required": false
     },
     {
       "host": "panel.dennisleehappy.org",
       "url": "https://panel.dennisleehappy.org/",
       "status": 200,
-      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/panel.dennisleehappy.org?kid=a406b1bfcaa49d7e3d54b9ce002608142f92a4b54dbd05b965b9520e7b050e61&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImE0MDZiMWJmY2FhNDlkN2UzZDU0YjljZTAwMjYwODE0MmY5MmE0YjU0ZGJkMDViOTY1Yjk1MjBlN2IwNTBlNjEiLCJob3N0bmFtZSI6InBhbmVsLmRlbm5pc2xlZWhhcHB5Lm9yZyIsInJlZGlyZWN0X3VybCI6Ii8iLCJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwiZXhwIjoxNzkwMTc1OTU4LCJuYmYiOjE3OTAxNzU2NTgsImlhdCI6MTc5MDE3NTY1OCwiYXV0aF9zdGF0dXMiOiJOT05FIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX2RuIjoiIiwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNvbW1vbl9uYW1lIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sInJlYWxfY291bnRyeSI6IlRXIiwiYXBwX3Nlc3Npb25faGFzaCI6ImYwODQxZjkxYWZiMDI5MDg5ZTM0YTAzYjdiNWVjYjc4MzgwZTE4NWE1MWY0ODA3ZWM2ZjJiN2I1MzY0NjVlOWIifQ.Q39yKuUpGanBrCreTog70KlW58XU6SatnHjwzNukOErqHqhIfaCLCtcO2MXu63FgmLmsvQNlKl6qWTxen_tTxLJw-VRPIbzd23AwJHH1ImXRgOc8YFlk8-OARBIbA76fwW2P0bDIu9jK0501AdKEp3SNOD4Io83F0maetuJFzArC2fw-vq5MtMSXZGOu6aXxXcAkKLyBVbW84pHbjELtS1j1TUcD4e6w6EDj8xmcb-2-NuhrpbANjZhqOT-1T1nLGB3evCGX-Xu-kdpFXCmFQydu6_6dgz9cQad_7iRjJoVaTObTt5CCclXqK4eBECiAidZMJQ5xv8yVh9Kosn6rdg&redirect_url=%2F",
+      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/panel.dennisleehappy.org?kid=a406b1bfcaa49d7e3d54b9ce002608142f92a4b54dbd05b965b9520e7b050e61&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImE0MDZiMWJmY2FhNDlkN2UzZDU0YjljZTAwMjYwODE0MmY5MmE0YjU0ZGJkMDViOTY1Yjk1MjBlN2IwNTBlNjEiLCJob3N0bmFtZSI6InBhbmVsLmRlbm5pc2xlZWhhcHB5Lm9yZyIsInJlZGlyZWN0X3VybCI6Ii8iLCJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwiZXhwIjoxNzkwMTc3MDExLCJuYmYiOjE3OTAxNzY3MTEsImlhdCI6MTc5MDE3NjcxMSwiYXV0aF9zdGF0dXMiOiJOT05FIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX2RuIjoiIiwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNvbW1vbl9uYW1lIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sInJlYWxfY291bnRyeSI6IlRXIiwiYXBwX3Nlc3Npb25faGFzaCI6ImQzMDg0MWNjM2NlYTM5MGM3N2I1YmVkNDcwYjRkNmUyNjlmYmI4YTYwMmE1ZTUwMzQ1ZTNhZGFkNmEyZWZkZjIifQ.lD4TAF9hgjhjpDpaIgZ3nl72Bps5YPbys3UFFmMNGi7dLWNvhSYPbnajmd4EnWcYoEdZp6_jAtc2V6H1w97ioWBoFKKrzMxeO-TAQIj7mSTQQW9Nq1eaUcTQAm_fIF7gtTCMyjHXN53Lea1HjL-i0DCkNl02POiQojEG483OM8S9kWca3WnW_44MkhBAUjNbSK5SD7QiebSE9LE1R_BP4KvsLMgv8Lxai2Wn5ylZH1HNESw0x5fKi_etdgNutbiXAJNGMzKRf2fPsf027OqrbHGpKmXeDt7zQOTJLl7nz8s7A55ODI19qdwzLyewHZ5ZN4aAWyCG7k4cVthgFh3GOQ&redirect_url=%2F",
       "contentType": "text/html",
       "title": "Sign in ・ Cloudflare Access",
       "description": null,
       "ogImage": null,
-      "latencyMs": 1166,
+      "latencyMs": 1228,
       "required": false
     },
     {
       "host": "paynow.dennisleehappy.org",
       "url": "https://paynow.dennisleehappy.org/",
       "status": 200,
-      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/paynow.dennisleehappy.org?kid=1fbf334948cf2072f76d1fd7cfaa97ab21c806e4eac0a503dd7f01547a859356&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjFmYmYzMzQ5NDhjZjIwNzJmNzZkMWZkN2NmYWE5N2FiMjFjODA2ZTRlYWMwYTUwM2RkN2YwMTU0N2E4NTkzNTYiLCJob3N0bmFtZSI6InBheW5vdy5kZW5uaXNsZWVoYXBweS5vcmciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5MDE3NTk1OCwibmJmIjoxNzkwMTc1NjU4LCJpYXQiOjE3OTAxNzU2NTgsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJUVyIsImFwcF9zZXNzaW9uX2hhc2giOiI5NzBhM2FmMmI4ZmU4Yzk3ZTY4NGNiNDcwNDgxMjgwZTg1MjRlM2VlMjE3NmYzMzkwNTEzM2IwZGU0NDAzNDlkIn0.aFUup7LmYsukZoR4MvzK-_7rHVpmJ-boVEShnof4vv1KbedoS7MKjQC9YqHqZfOSdvPWvDDlhIWbysSZwvbUe0Z9WA7J-PaX_T0E8dvIK3l7fexfHuFtQQNPx1RpZkzgzdLIoq-kC-3R8Bty6yLQI3zz8SXfVB76vFnAjuatsyA9D1los_CPDi0hc1lBrzV7WwfCOnyrZKTVmdpm2dk2WiRIAlc249MoTaQbdoRiOoGv9IBYzZaV7NJ9cYe-QDy61Brv0mu_4vfWqwbYWebKtfuAdjvJyyiHPImMcCW3OX5y4ZUMc2ijQQ0CtoWTRLhWCvgOgVMJVS6FxNZEoPxvug&redirect_url=%2F",
+      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/paynow.dennisleehappy.org?kid=1fbf334948cf2072f76d1fd7cfaa97ab21c806e4eac0a503dd7f01547a859356&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjFmYmYzMzQ5NDhjZjIwNzJmNzZkMWZkN2NmYWE5N2FiMjFjODA2ZTRlYWMwYTUwM2RkN2YwMTU0N2E4NTkzNTYiLCJob3N0bmFtZSI6InBheW5vdy5kZW5uaXNsZWVoYXBweS5vcmciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5MDE3NzAxMSwibmJmIjoxNzkwMTc2NzExLCJpYXQiOjE3OTAxNzY3MTEsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJUVyIsImFwcF9zZXNzaW9uX2hhc2giOiIzZGNiNWZhM2Y4OWEwNmEzMzM2YjhhZjFmZmQ0MDc3OGJhZGFlMTJjNjljYjhhMTEzZDRjYjRhMmU2NjdiZjcxIn0.Tu5FWYsZ9EH2w3de2YBen_qfK7BExTjzNXQ_eiNRfkpkAySB8AWuCl4bsBLgDFxXhecTnp6Lkec4vGQiWTDFCfUwvgx0OudZ8SspXrsETV4apVvdnVPEjwUwjzvGwXleKUXGKrr7Lgi6SFw8O7NxHuFpj1ECMt28yMIprNEdZ9DGTLiGkDv1ilPgjLefty_UVZUXnXRXM3zVGMLQttEqwPdtZiGGXfTjOH_0PmgTNDGw9txZdJe8UsgxsUVcM_bG-2HYSVjYhALD7aoST384GU-uf7ac5TlcKWDcxc-aPXWYpKviS1bRmkKmzJzWw2Igtu56fhj8FRR_8bT40cJLTw&redirect_url=%2F",
       "contentType": "text/html",
       "title": "Sign in ・ Cloudflare Access",
       "description": null,
       "ogImage": null,
-      "latencyMs": 1115,
+      "latencyMs": 1156,
       "required": false
     },
     {
       "host": "vsnova.dennisleehappy.org",
       "url": "https://vsnova.dennisleehappy.org/",
       "status": 200,
-      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/vsnova.dennisleehappy.org?kid=05568f0c4388aa3b0f8b5b72b0255d51ee4d53006d3b2905c822b73223a31ee1&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjA1NTY4ZjBjNDM4OGFhM2IwZjhiNWI3MmIwMjU1ZDUxZWU0ZDUzMDA2ZDNiMjkwNWM4MjJiNzMyMjNhMzFlZTEiLCJob3N0bmFtZSI6InZzbm92YS5kZW5uaXNsZWVoYXBweS5vcmciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5MDE3NTk1OSwibmJmIjoxNzkwMTc1NjU5LCJpYXQiOjE3OTAxNzU2NTksImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJUVyIsImFwcF9zZXNzaW9uX2hhc2giOiIyMDI5NGI2MDU0MjM4MjMyMWE5YzVlYTYzZWVhMDUwNzMyNGMxYWM3NTA4YjM0YjgzZGVjNDIxZTVlNjhmMmM0In0.BU6yP4VXVL8GyBEc0f3stq2ORHc5t03idkLIkxycraVX9LC5GdjjNBir7rYFZKQ9LTXjrVzvgTiP08-6_yK3BZU_uNdHF__oNWUNIm7NpkL8k8161ihJjKJHrOCWafipF0RNGfJoJIaoX1OtlI-yEvZSPbSqQoT0UMAO90VYYnhR-ryOAd6QetDqIxFmyzfxWnqtucHmTo5McQYf-GC428OpCak4Kh2vZRg-gKHRFpYdcmPYRO-VJ_KpOS9usb-lbJiBV6ZKb2je6mCnUiPA1a42Fr9C-B0LMzH6WOTYcTLo_jpdt2V2KXDAqeOH138tjF8j7fubT1Vy62KUGk0PEw&redirect_url=%2F",
+      "finalUrl": "https://dennislee2024.cloudflareaccess.com/cdn-cgi/access/login/vsnova.dennisleehappy.org?kid=05568f0c4388aa3b0f8b5b72b0255d51ee4d53006d3b2905c822b73223a31ee1&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjkyNmM1YmVjY2Y4Y2Y0MmIzNDk1MzRlMGRjOTk2NGE1YzEzYjUwZTgwYTE2Mzc2MWYxNDE2YWM2Yzg0YmVhMGMifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjA1NTY4ZjBjNDM4OGFhM2IwZjhiNWI3MmIwMjU1ZDUxZWU0ZDUzMDA2ZDNiMjkwNWM4MjJiNzMyMjNhMzFlZTEiLCJob3N0bmFtZSI6InZzbm92YS5kZW5uaXNsZWVoYXBweS5vcmciLCJyZWRpcmVjdF91cmwiOiIvIiwic2VydmljZV90b2tlbl9zdGF0dXMiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsImV4cCI6MTc5MDE3NzAxMiwibmJmIjoxNzkwMTc2NzEyLCJpYXQiOjE3OTAxNzY3MTIsImF1dGhfc3RhdHVzIjoiTk9ORSIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9kbiI6IiIsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjb21tb25fbmFtZSI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJyZWFsX2NvdW50cnkiOiJUVyIsImFwcF9zZXNzaW9uX2hhc2giOiI1MzI4ZTJhMzE3OTA3Y2NkMzBkMmUyOWU1YmU3YjExZmFhNDkxODJkZGU0NWM2ODQ4YWJkMjgzNDdlZjc5NDRiIn0.hNv4K3PMnaYCQegI2pEZFAR_r0y-Q4BgYS3R6Jsua9CJIfLGxS-3o8F3lBuaVgoLaXkfFElafLc7p95Set2kFs_ZIUSPtH3VB9tlJ4PlgzKhA61m9KaA5tkgAwuWLL-SzXj4Qjf-BF1ga_A72uC5fkedCFYSezr8mXChnwWowrbHC9DvVeL5lfgipSdD08PHJtOs-G3iOToVwLrA8gJa-4UPKe0nUBh9TFNMFvNxhOWg1qr6HlKVG7g-7E8nUIVrBaaW9FfgR2WsHKZojRRcCNNOHT0Btxedd77A4PIwxD33RI4e1UM2JZDwsp-G733J3illzXCTOIhFAuXMQWBQnQ&redirect_url=%2F",
       "contentType": "text/html",
       "title": "Sign in ・ Cloudflare Access",
       "description": null,
       "ogImage": null,
-      "latencyMs": 1143,
+      "latencyMs": 1120,
       "required": false
     }
   ],
@@ -711,7 +525,7 @@
       "title": "Create Next App",
       "description": "Generated by create next app",
       "ogImage": null,
-      "latencyMs": 427,
+      "latencyMs": 499,
       "required": false
     },
     {
@@ -723,7 +537,7 @@
       "title": "Create Next App",
       "description": "Generated by create next app",
       "ogImage": null,
-      "latencyMs": 342,
+      "latencyMs": 528,
       "required": false
     }
   ],
@@ -737,7 +551,83 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 13,
+      "latencyMs": 14,
+      "required": false,
+      "error": "fetch failed"
+    },
+    {
+      "host": "api-devsecops-x-life-design.dennisleehappy.org",
+      "url": "https://api-devsecops-x-life-design.dennisleehappy.org/",
+      "status": 503,
+      "finalUrl": "https://api-devsecops-x-life-design.dennisleehappy.org/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Service Suspended",
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 1432,
+      "required": false
+    },
+    {
+      "host": "api-mirage-exchange.dennisleehappy.org",
+      "url": "https://api-mirage-exchange.dennisleehappy.org/",
+      "status": 404,
+      "finalUrl": "https://api-mirage-exchange.dennisleehappy.org/",
+      "contentType": "text/plain",
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 772,
+      "required": false
+    },
+    {
+      "host": "api-siep-microservices-lab.dennisleehappy.org",
+      "url": "https://api-siep-microservices-lab.dennisleehappy.org/",
+      "status": 0,
+      "finalUrl": null,
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 20005,
+      "required": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "host": "apiv1-carbontrading.dennisleehappy.org",
+      "url": "https://apiv1-carbontrading.dennisleehappy.org/",
+      "status": 0,
+      "finalUrl": null,
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 20005,
+      "required": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "host": "apiv1.carbontrading.dennisleehappy.org",
+      "url": "https://apiv1.carbontrading.dennisleehappy.org/",
+      "status": 0,
+      "finalUrl": null,
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 308,
+      "required": false,
+      "error": "fetch failed"
+    },
+    {
+      "host": "apiv1.dennisleehappy.org",
+      "url": "https://apiv1.dennisleehappy.org/",
+      "status": 0,
+      "finalUrl": null,
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 307,
       "required": false,
       "error": "fetch failed"
     },
@@ -750,7 +640,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 432,
+      "latencyMs": 550,
       "required": false
     },
     {
@@ -762,7 +652,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 2,
+      "latencyMs": 19,
       "required": false,
       "error": "fetch failed"
     },
@@ -775,7 +665,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 5,
+      "latencyMs": 18,
       "required": false,
       "error": "fetch failed"
     },
@@ -788,9 +678,21 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 705,
+      "latencyMs": 967,
       "required": false,
       "error": "fetch failed"
+    },
+    {
+      "host": "coincap-api.dennisleehappy.org",
+      "url": "https://coincap-api.dennisleehappy.org/",
+      "status": 404,
+      "finalUrl": "https://coincap-api.dennisleehappy.org/",
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 542,
+      "required": false
     },
     {
       "host": "ielts-prepare.dennisleehappy.org",
@@ -801,7 +703,44 @@
       "title": "Site not found &middot; GitHub Pages",
       "description": null,
       "ogImage": null,
-      "latencyMs": 445,
+      "latencyMs": 477,
+      "required": false
+    },
+    {
+      "host": "kong-monitor.dennisleehappy.org",
+      "url": "https://kong-monitor.dennisleehappy.org/",
+      "status": 0,
+      "finalUrl": null,
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 240,
+      "required": false,
+      "error": "fetch failed"
+    },
+    {
+      "host": "kong-portal.dennisleehappy.org",
+      "url": "https://kong-portal.dennisleehappy.org/",
+      "status": 404,
+      "finalUrl": "https://kong-portal.dennisleehappy.org/",
+      "contentType": "application/json",
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 988,
+      "required": false
+    },
+    {
+      "host": "life-3-0-api.dennisleehappy.org",
+      "url": "https://life-3-0-api.dennisleehappy.org/",
+      "status": 404,
+      "finalUrl": "https://life-3-0-api.dennisleehappy.org/",
+      "contentType": "text/plain; charset=utf-8",
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 12862,
       "required": false
     },
     {
@@ -813,7 +752,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 706,
+      "latencyMs": 734,
       "required": false,
       "error": "fetch failed"
     },
@@ -826,7 +765,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 190,
+      "latencyMs": 303,
       "required": false
     },
     {
@@ -838,7 +777,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 493,
+      "latencyMs": 470,
       "required": false
     },
     {
@@ -850,7 +789,19 @@
       "title": "Not Found",
       "description": null,
       "ogImage": null,
-      "latencyMs": 455,
+      "latencyMs": 522,
+      "required": false
+    },
+    {
+      "host": "r2-logs.dennisleehappy.org",
+      "url": "https://r2-logs.dennisleehappy.org/",
+      "status": 404,
+      "finalUrl": "https://r2-logs.dennisleehappy.org/",
+      "contentType": "text/html",
+      "title": "Not Found",
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 521,
       "required": false
     },
     {
@@ -862,7 +813,7 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 476,
+      "latencyMs": 465,
       "required": false
     },
     {
@@ -874,8 +825,57 @@
       "title": null,
       "description": null,
       "ogImage": null,
-      "latencyMs": 441,
+      "latencyMs": 480,
       "required": false
+    },
+    {
+      "host": "t5-cf-dashboard.dennisleehappy.org",
+      "url": "https://t5-cf-dashboard.dennisleehappy.org/",
+      "status": 500,
+      "finalUrl": "https://t5-cf-dashboard.dennisleehappy.org/",
+      "contentType": "application/json",
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 875,
+      "required": false
+    },
+    {
+      "host": "unified-ai-quantum.dennisleehappy.org",
+      "url": "https://unified-ai-quantum.dennisleehappy.org/",
+      "status": 404,
+      "finalUrl": "https://unified-ai-quantum.dennisleehappy.org/",
+      "contentType": "application/json",
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 444,
+      "required": false
+    },
+    {
+      "host": "unified-backen.dennisleehappy.org",
+      "url": "https://unified-backen.dennisleehappy.org/",
+      "status": 403,
+      "finalUrl": "https://unified-backen.dennisleehappy.org/",
+      "contentType": "application/json",
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 964,
+      "required": false
+    },
+    {
+      "host": "unified-backend-dcontainer.dennisleehappy.org",
+      "url": "https://unified-backend-dcontainer.dennisleehappy.org/",
+      "status": 0,
+      "finalUrl": null,
+      "contentType": null,
+      "title": null,
+      "description": null,
+      "ogImage": null,
+      "latencyMs": 3,
+      "required": false,
+      "error": "fetch failed"
     },
     {
       "host": "zekequiskitz.dpdns.org",

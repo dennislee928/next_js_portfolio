@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "discover:sites": "node scripts/discover-dennisleehappy-sites.mjs",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "thumbs": "node scripts/capture-thumbnails.mjs && node scripts/generate-fallback-thumbnails.mjs",
+    "thumbs:force": "node scripts/capture-thumbnails.mjs --force && node scripts/generate-fallback-thumbnails.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.122.0",

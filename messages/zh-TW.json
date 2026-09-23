@@ -5,7 +5,8 @@
     "techStack": "技術堆疊",
     "projects": "專案",
     "certifications": "證書",
-    "contact": "聯絡我"
+    "contact": "聯絡我",
+    "allProjects": "全部作品"
   },
   "Hero": {
     "welcome": "👋 嗨，我是 Dennis Lee 李沛宸",
@@ -37,60 +38,162 @@
     }
   },
   "Projects": {
-    "heading": "精選 <highlight>近期</highlight> 專案",
-    "highlight": "近期",
-    "subheading": "整理 dennisleehappy.org 旗下已上線作品，以及指定必須呈現的 AI trust / defense 介面；連線狀態已於 2026-07-16 檢查。",
-    "project1": {
-      "title": "碳權交易平台 Carboon",
-      "desc": "Golang + Supabase 架構 API，含 Swagger 文件與 JWT RBAC"
-    },
-    "project2": {
-      "title": "Web3 互動平台",
-      "desc": "與智能合約互動介面，包含 RWD UI 與資安導向設計"
-    },
-    "project3": {
-      "title": "Cloudflare DNS 備援與資安治理",
-      "desc": "自動化切換 DNS + WAF 規則更新"
-    },
-    "project4": {
-      "title": "韌體分析實驗室",
-      "desc": "韌體靜態分析、YARA 掃描與 CAN Bus 模擬工具組"
-    },
-    "project5": {
-      "title": "Side Project Backend",
-      "desc": "部署在 Cloud Run 上的 Python RESTful API"
-    },
-    "project6": {
-      "title": "Cloudflare AI 圖像生成",
-      "desc": "利用 Cloudflare Workers 與 JS 建立前後端原型"
-    },
-    "project7": {
-      "title": "Bitfinex 放貸機器人 (WIP)",
-      "desc": "Go 實作自動放貸策略，含 YAML 策略模組"
-    },
-    "project8": {
-      "title": "CityInsight 360",
-      "desc": "建築專案管理平台"
-    },
-    "project9": {
-      "title": "量子音頻分析系統",
-      "desc": "Cyberpunk 風格的量子音頻分析系統"
-    },
-    "project10": {
-      "title": "IELTS 學習遊戲",
-      "desc": "互動式 IELTS 練習平台"
-    },
-    "project11": {
-      "title": "Inclusive AI Trust Gateway",
-      "desc": "AI 應用的 policy、gateway 與 trust 控制介面，作為主要 AI governance 前端展示"
-    },
-    "project12": {
-      "title": "Agentic Defense Matrix ADM",
-      "desc": "已預先串接 api.dennisleehappy.org 的 GitHub Pages 防禦矩陣介面"
-    },
-    "project13": {
-      "title": "dennisleehappy.org API Gateway",
-      "desc": "支撐 AI trust 與 defense 展示的線上 API gateway"
+    "heading": "精選的<highlight>近期</highlight>作品",
+    "subheading": "從 dennisleehappy.org 與 zekequiskitz.dpdns.org 上 36 個線上作品中挑出的三個亮點，其餘依用途分類瀏覽。",
+    "browseByCategory": "依分類瀏覽",
+    "liveSite": "前往網站",
+    "viewDemo": "觀看示範",
+    "repository": "程式碼儲存庫",
+    "ztnaBadge": "Cloudflare Access",
+    "featuredBadge": "精選",
+    "gatedNote": "需登入 — 部署於 Cloudflare Access 之後，用以展示 ZTNA 政策實施。",
+    "viewAll": "瀏覽全部 36 個作品",
+    "projectCount": "{count} 個作品",
+    "items": {
+      "inclusive-ai-trust-gateway": {
+        "title": "Inclusive AI Trust Gateway 包容性 AI 信任閘道",
+        "desc": "公共服務 AI 評估與防護平台，在模型上線前先完成包容性稽核。"
+      },
+      "agentic-defense-matrix": {
+        "title": "Agentic Defense Matrix 代理防禦矩陣",
+        "desc": "紅、藍、綠隊三方對抗的 AI 代理攻防主控台，直接串接 api.dennisleehappy.org 閘道。"
+      },
+      "hexstrike-attack-dashboard": {
+        "title": "HexStrike 攻擊儀表板",
+        "desc": "用於編排與檢視模擬攻擊流程的攻擊面資安主控台。"
+      },
+      "iot-knowledge-search": {
+        "title": "IoT 知識檢索系統",
+        "desc": "以 Cloudflare AutoRAG 驅動的物聯網智慧知識檢索平台。"
+      },
+      "mcp-remote-auth": {
+        "title": "MCP 遠端驗證示範",
+        "desc": "Model Context Protocol 伺服器遠端驗證流程的參考實作。"
+      },
+      "pqc-digital-twin": {
+        "title": "PQC 遷移數位孿生",
+        "desc": "後量子密碼遷移整備度與風險可視化的營運儀表板。"
+      },
+      "ztna-ops-panel": {
+        "title": "Zero Trust 維運控制台",
+        "desc": "透過 Cloudflare Access 保護的內部維運控制台，展示 ZTNA 政策設計與實施。"
+      },
+      "cloudflare-dns-failover": {
+        "title": "Cloudflare DNS 故障轉移與資安治理",
+        "desc": "跨 Cloudflare 帳號的自動化 DNS 故障轉移與 WAF 規則管理。"
+      },
+      "firmware-analysis-lab": {
+        "title": "韌體分析實驗室",
+        "desc": "結合 YARA 掃描與 CAN Bus 模擬的韌體靜態分析。"
+      },
+      "web3-interaction-platform": {
+        "title": "Web3 互動平台",
+        "desc": "支援錢包連線的智能合約互動平台，具備完整響應式介面。"
+      },
+      "mirage-exchange": {
+        "title": "蜃景交易所 Mirage Exchange",
+        "desc": "極端高併發虛擬情報拍賣 — 研究用。"
+      },
+      "bitcoin24": {
+        "title": "Bitcoin24 投資策略模擬器",
+        "desc": "以 21 年總經預測與個體模型，模擬個人、企業、機構與主權國家的比特幣採用路徑。"
+      },
+      "crypto-info-site": {
+        "title": "加密貨幣資訊站",
+        "desc": "彙整加密資產即時報價與市場指標的行情儀表板。"
+      },
+      "noir-zk-recovery": {
+        "title": "Noir ZK 帳戶回復示範",
+        "desc": "以 Noir 撰寫的零知識證明帳戶回復電路。"
+      },
+      "ksn-sovereign-asset": {
+        "title": "KSN 主權資產",
+        "desc": "代幣化的能源運算基礎設施，搭配即時微電網營運資料。"
+      },
+      "carbon-trading-platform": {
+        "title": "碳交易平台",
+        "desc": "個人碳交易與管理平台，後端採 Golang 搭配 Supabase、Swagger 文件與 JWT RBAC。"
+      },
+      "stock-payment-sandbox": {
+        "title": "股票付款模擬平台",
+        "desc": "以 Nuxt 3 + ECPay 金流測試環境 + TWSE Open API 為核心，打造投資人模擬下單平台。"
+      },
+      "bitfinex-funding-bot": {
+        "title": "Bitfinex 放貸機器人",
+        "desc": "以 Golang 實作、透過 YAML 設定的自動化放貸策略，開發中。"
+      },
+      "qcaas": {
+        "title": "QCaaS 量子電路即服務",
+        "desc": "以 API 形式提供量子電路最佳化、成本估算與商業語言解讀。"
+      },
+      "essentia-quantum-audio": {
+        "title": "量子音訊分析系統",
+        "desc": "即時量子音訊分析，搭配傅立葉轉換視覺化。"
+      },
+      "life-3-0-doomsday-clock": {
+        "title": "Life 3.0 末日時鐘",
+        "desc": "以末日時鐘呈現 AI 情境風險訊號的追蹤儀表板。"
+      },
+      "datacenter-builder-simulator": {
+        "title": "資料中心建置模擬器",
+        "desc": "以樂高式玩法建置資料中心，依 Uptime、TIA-942、ASHRAE、NFPA、ISO 27001 與 EU EED 評分，並取得可驗證證書。"
+      },
+      "feeder-ide-digital-twin": {
+        "title": "Feeder IDE",
+        "desc": "饋線系統的數位孿生與設計平台，提供瀏覽器內建模工作區。"
+      },
+      "cityinsight-360": {
+        "title": "CityInsight360 智慧建築管理平台",
+        "desc": "一站式智慧建築管理解決方案，涵蓋設備、工單與現場回報。"
+      },
+      "livehouse-aas": {
+        "title": "LiveHouseAAS 展演整合平台",
+        "desc": "台灣 Live House 與獨立音樂的 SaaS 整合平台 — 檔期管理、票務金流、數據分析。"
+      },
+      "government-data-hub": {
+        "title": "政府資料整合平台",
+        "desc": "整合政府資料開放平台與 Dcard API，提供設施查詢、文章瀏覽等服務。"
+      },
+      "fermy": {
+        "title": "Fermy 發酵飲品",
+        "desc": "來自奄美大島的創新發酵飲品品牌網站，將傳統飲料「miki」與羊奶結合。"
+      },
+      "academy-central": {
+        "title": "Academy Central",
+        "desc": "以 App Router 打造的前端技術出版與學習部落格。"
+      },
+      "nthing-ui": {
+        "title": "NThing-UI 元件庫",
+        "desc": "展示可重複使用設計系統與基礎元件的元件庫示範站。"
+      },
+      "chipwhisperer-workbench": {
+        "title": "ChipWhisperer 工作臺",
+        "desc": "本地 ChipWhisperer 實驗控制與 Apple Silicon 環境設定，用於側通道分析。"
+      },
+      "qu-lab": {
+        "title": "Qu-Lab",
+        "desc": "以 Quasar 打造的實驗工作區，用於試驗跨平台 UI 建置。"
+      },
+      "ielts-writing-error-tester": {
+        "title": "IELTS 寫作錯誤測驗",
+        "desc": "以互動練習找出並解析 IELTS 寫作常見錯誤。"
+      },
+      "life-design-8bit": {
+        "title": "Life Design App 8-BIT 版",
+        "desc": "用 DevSecOps 原則設計你的人生，復古遊戲風格呈現。"
+      },
+      "mission-dao": {
+        "title": "Mission DAO 公民太空探索",
+        "desc": "讓公民共同出資並治理 CubeSat 任務的太空探索平台。"
+      },
+      "cloudflare-ai-image-generation": {
+        "title": "Cloudflare AI 圖像生成",
+        "desc": "在 Cloudflare Workers AI 邊緣節點上執行的文字轉圖像生成。"
+      },
+      "side-project-backend": {
+        "title": "Side Project 後端服務",
+        "desc": "部署於 GCP Cloud Run 的 Flask API，以容器化確保部署可重現。"
+      }
     }
   },
   "Experience": {
@@ -117,19 +220,19 @@
     "heading": "我的 <highlight>開發流程</highlight>",
     "highlight": "開發流程",
     "phase1": {
-        "order": "階段一",
-        "title": "規劃與策略",
-        "desc": "我們將合作規劃網站目標、目標受眾和關鍵功能。討論網站架構、導航和內容需求。"
+      "order": "階段一",
+      "title": "規劃與策略",
+      "desc": "我們將合作規劃網站目標、目標受眾和關鍵功能。討論網站架構、導航和內容需求。"
     },
     "phase2": {
-        "order": "階段二",
-        "title": "開發與進度更新",
-        "desc": "確認計畫後，我會播放 Lo-Fi 音樂並投入編碼。從草圖到完善的程式碼，隨時向您更新進度。"
+      "order": "階段二",
+      "title": "開發與進度更新",
+      "desc": "確認計畫後，我會播放 Lo-Fi 音樂並投入編碼。從草圖到完善的程式碼，隨時向您更新進度。"
     },
     "phase3": {
-        "order": "階段三",
-        "title": "開發與發布",
-        "desc": "魔法時刻！基於核准的設計，我將把一切轉化為功能性程式碼，從頭建立您的網站。"
+      "order": "階段三",
+      "title": "開發與發布",
+      "desc": "魔法時刻！基於核准的設計，我將把一切轉化為功能性程式碼，從頭建立您的網站。"
     }
   },
   "Footer": {
@@ -138,5 +241,38 @@
     "subheading": "立即聯繫我，討論我如何協助您達成目標。",
     "cta": "保持聯繫",
     "copyright": "版權所有 © 2025 Dennis Lee"
+  },
+  "ProjectCategories": {
+    "ai-security": {
+      "name": "AI 與資安",
+      "desc": "信任閘道、代理式防禦、RAG 檢索與後量子整備。"
+    },
+    "web3-fintech": {
+      "name": "Web3 與金融科技",
+      "desc": "交易所、零知識證明、碳權市場與金流模擬。"
+    },
+    "quantum-simulation": {
+      "name": "量子與模擬",
+      "desc": "量子電路即服務、數位孿生與情境模擬器。"
+    },
+    "business-platforms": {
+      "name": "商業平台",
+      "desc": "面向建築、展演場館、公共資料與品牌的正式營運 SaaS。"
+    },
+    "developer-tools": {
+      "name": "開發者工具",
+      "desc": "元件庫與硬體實驗工作臺。"
+    },
+    "labs-experiments": {
+      "name": "實驗室與實驗作品",
+      "desc": "探索 DAO、邊緣 AI 與學習工具的小型作品。"
+    }
+  },
+  "ProjectsPage": {
+    "title": "作品集",
+    "subtitle": "依用途分類的 36 個作品。",
+    "backToProjects": "全部作品",
+    "backHome": "回到首頁",
+    "notFound": "找不到這個分類。"
   }
 }

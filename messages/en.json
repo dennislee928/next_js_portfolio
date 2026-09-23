@@ -5,7 +5,8 @@
     "techStack": "Tech Stack",
     "projects": "Projects",
     "certifications": "Certifications",
-    "contact": "Contact"
+    "contact": "Contact",
+    "allProjects": "All projects"
   },
   "Hero": {
     "welcome": "👋 Hi, I'm Dennis Lee",
@@ -38,59 +39,161 @@
   },
   "Projects": {
     "heading": "A small selection of my <highlight>recent</highlight> projects",
-    "highlight": "recent",
-    "subheading": "Live and high-signal work from dennisleehappy.org plus the required AI trust and defense surfaces, with reachability checked on July 16, 2026.",
-    "project1": {
-      "title": "Carbon Credit Trading Platform Carboon",
-      "desc": "Golang backend with Supabase, Swagger docs and JWT RBAC"
-    },
-    "project2": {
-      "title": "Web3 Interaction Platform",
-      "desc": "Web3 smart contract interaction platform with RWD UI"
-    },
-    "project3": {
-      "title": "Cloudflare DNS Failover & Security Governance",
-      "desc": "Automated DNS failover and WAF rule management"
-    },
-    "project4": {
-      "title": "Firmware Analysis Lab",
-      "desc": "Firmware static analysis with YARA scanning and CAN Bus simulation"
-    },
-    "project5": {
-      "title": "Side Project Backend",
-      "desc": "Flask API on GCP Cloud Run"
-    },
-    "project6": {
-      "title": "Cloudflare AI Image Generation",
-      "desc": "AI image generation using Cloudflare Workers"
-    },
-    "project7": {
-      "title": "Bitfinex Funding Bot (WIP)",
-      "desc": "Golang automated lending strategy with YAML config"
-    },
-    "project8": {
-      "title": "CityInsight 360",
-      "desc": "Construction project management platform"
-    },
-    "project9": {
-      "title": "Quantum Audio Analysis System",
-      "desc": "Cyberpunk quantum audio analysis system"
-    },
-    "project10": {
-      "title": "IELTS Learning Game",
-      "desc": "Interactive IELTS practice platform"
-    },
-    "project11": {
-      "title": "Inclusive AI Trust Gateway",
-      "desc": "Policy, gateway and trust controls for AI applications, presented as the primary AI governance frontend"
-    },
-    "project12": {
-      "title": "Agentic Defense Matrix ADM",
-      "desc": "GitHub Pages defense matrix preconfigured to use api.dennisleehappy.org for API and gateway traffic"
-    },
-    "project13": {
-      "title": "dennisleehappy.org API Gateway",
-      "desc": "Live API gateway backing the AI trust and defense demonstrations"
+    "subheading": "Three highlights from 36 live projects across dennisleehappy.org and zekequiskitz.dpdns.org. Browse the rest by what they were built for.",
+    "browseByCategory": "Browse by category",
+    "liveSite": "Live Site",
+    "viewDemo": "View Demo",
+    "repository": "Repository",
+    "ztnaBadge": "Cloudflare Access",
+    "featuredBadge": "Highlight",
+    "gatedNote": "Sign-in required — published behind Cloudflare Access to demonstrate ZTNA policy enforcement.",
+    "viewAll": "View all 36 projects",
+    "projectCount": "{count} projects",
+    "items": {
+      "inclusive-ai-trust-gateway": {
+        "title": "Inclusive AI Trust Gateway",
+        "desc": "Public-service AI evaluation and protection platform, with inclusion auditing applied before a model reaches production."
+      },
+      "agentic-defense-matrix": {
+        "title": "Agentic Defense Matrix",
+        "desc": "Red, blue and green team battle console for agentic systems, wired to the api.dennisleehappy.org gateway."
+      },
+      "hexstrike-attack-dashboard": {
+        "title": "HexStrike Attack Dashboard",
+        "desc": "Offensive security console for orchestrating and reviewing simulated attack runs."
+      },
+      "iot-knowledge-search": {
+        "title": "IoT Knowledge Search System",
+        "desc": "Intelligent IoT knowledge search platform powered by Cloudflare AutoRAG."
+      },
+      "mcp-remote-auth": {
+        "title": "MCP Remote Auth Demo",
+        "desc": "Reference implementation of remote authentication for Model Context Protocol servers."
+      },
+      "pqc-digital-twin": {
+        "title": "PQC Migration Digital Twin",
+        "desc": "Operational dashboard for post-quantum cryptography migration readiness and risk visibility."
+      },
+      "ztna-ops-panel": {
+        "title": "Zero Trust Ops Panel",
+        "desc": "Internal operations panel published behind Cloudflare Access, demonstrating ZTNA policy design and enforcement."
+      },
+      "cloudflare-dns-failover": {
+        "title": "Cloudflare DNS Failover & Security Governance",
+        "desc": "Automated DNS failover with WAF rule management across Cloudflare accounts."
+      },
+      "firmware-analysis-lab": {
+        "title": "Firmware Analysis Lab",
+        "desc": "Firmware static analysis with YARA scanning and CAN Bus simulation."
+      },
+      "web3-interaction-platform": {
+        "title": "Web3 Interaction Platform",
+        "desc": "Smart contract interaction platform with a fully responsive wallet-connected UI."
+      },
+      "mirage-exchange": {
+        "title": "Mirage Exchange",
+        "desc": "Extreme high-concurrency virtual intelligence auction, built for research."
+      },
+      "bitcoin24": {
+        "title": "Bitcoin24 Strategy Simulator",
+        "desc": "21-year macro forecasts and micro models simulating individual, corporate, institutional and nation-state Bitcoin adoption."
+      },
+      "crypto-info-site": {
+        "title": "Crypto Info Site",
+        "desc": "Market dashboard aggregating live prices and metrics across crypto assets."
+      },
+      "noir-zk-recovery": {
+        "title": "Noir ZK Recovery Demo",
+        "desc": "Zero-knowledge account recovery circuits written in Noir."
+      },
+      "ksn-sovereign-asset": {
+        "title": "KSN — Sovereign Asset",
+        "desc": "Tokenised energy-compute infrastructure with live microgrid operations."
+      },
+      "carbon-trading-platform": {
+        "title": "Carbon Trading Platform",
+        "desc": "Personal carbon trading and management platform, backed by a Go API with Supabase, Swagger docs and JWT RBAC."
+      },
+      "stock-payment-sandbox": {
+        "title": "Stock Payment Sandbox",
+        "desc": "Investor order-simulation platform built on Nuxt 3, the ECPay test gateway and the TWSE Open API."
+      },
+      "bitfinex-funding-bot": {
+        "title": "Bitfinex Funding Bot",
+        "desc": "Automated lending strategy in Go, configured through YAML. Work in progress."
+      },
+      "qcaas": {
+        "title": "QCaaS — Quantum Circuits as a Service",
+        "desc": "Quantum circuit optimisation, cost estimation and business-language interpretation delivered as an API."
+      },
+      "essentia-quantum-audio": {
+        "title": "Quantum Audio Analysis System",
+        "desc": "Real-time quantum audio analysis with Fourier transform visualisation."
+      },
+      "life-3-0-doomsday-clock": {
+        "title": "Life 3.0 Doomsday Clock",
+        "desc": "Dashboard tracking AI scenario risk signals against a doomsday clock."
+      },
+      "datacenter-builder-simulator": {
+        "title": "Datacenter Builder Simulator",
+        "desc": "Build a data centre Lego-style, get rated against Uptime, TIA-942, ASHRAE, NFPA, ISO 27001 and EU EED, and earn a verifiable certificate."
+      },
+      "feeder-ide-digital-twin": {
+        "title": "Feeder IDE",
+        "desc": "Digital twin and design platform for feeder systems, with an in-browser modelling workspace."
+      },
+      "cityinsight-360": {
+        "title": "CityInsight 360",
+        "desc": "One-stop smart building management solution for facilities, work orders and site reporting."
+      },
+      "livehouse-aas": {
+        "title": "LiveHouseAAS",
+        "desc": "SaaS platform for Taiwan's live houses and independent music scene: scheduling, ticketing, payments and analytics."
+      },
+      "government-data-hub": {
+        "title": "Government Data Hub",
+        "desc": "Integrates Taiwan's open government data platform with the Dcard API for facility lookup and article browsing."
+      },
+      "fermy": {
+        "title": "Fermy",
+        "desc": "Brand site for an innovative fermented drink from Amami Ōshima, pairing the traditional beverage miki with goat milk."
+      },
+      "academy-central": {
+        "title": "Academy Central",
+        "desc": "Front-end publication and learning blog built on the App Router."
+      },
+      "nthing-ui": {
+        "title": "NThing-UI",
+        "desc": "Component library demo showcasing a reusable design system and its primitives."
+      },
+      "chipwhisperer-workbench": {
+        "title": "ChipWhisperer Workbench",
+        "desc": "Local ChipWhisperer lab control and Apple Silicon setup for side-channel analysis."
+      },
+      "qu-lab": {
+        "title": "Qu-Lab",
+        "desc": "Quasar-based laboratory workspace for experimenting with cross-platform UI builds."
+      },
+      "ielts-writing-error-tester": {
+        "title": "IELTS Writing Error Tester",
+        "desc": "Interactive drills that surface and explain common IELTS writing mistakes."
+      },
+      "life-design-8bit": {
+        "title": "Life Design App — 8-BIT Edition",
+        "desc": "Design your life with DevSecOps principles, in retro gaming style."
+      },
+      "mission-dao": {
+        "title": "Mission DAO",
+        "desc": "Citizen space exploration platform for funding and governing CubeSat missions."
+      },
+      "cloudflare-ai-image-generation": {
+        "title": "Cloudflare AI Image Generation",
+        "desc": "Text-to-image generation running on Cloudflare Workers AI at the edge."
+      },
+      "side-project-backend": {
+        "title": "Side Project Backend",
+        "desc": "Flask API deployed on GCP Cloud Run, containerised for reproducible deploys."
+      }
     }
   },
   "Experience": {
@@ -117,19 +220,19 @@
     "heading": "My <highlight>approach</highlight>",
     "highlight": "approach",
     "phase1": {
-        "order": "Phase 1",
-        "title": "Planning & Strategy",
-        "desc": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+      "order": "Phase 1",
+      "title": "Planning & Strategy",
+      "desc": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
     },
     "phase2": {
-        "order": "Phase 2",
-        "title": "Development & Progress Update",
-        "desc": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+      "order": "Phase 2",
+      "title": "Development & Progress Update",
+      "desc": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
     },
     "phase3": {
-        "order": "Phase 3",
-        "title": "Development & Launch",
-        "desc": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+      "order": "Phase 3",
+      "title": "Development & Launch",
+      "desc": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
     }
   },
   "Footer": {
@@ -138,5 +241,38 @@
     "subheading": "Reach out to me today and let's discuss how I can help you achieve your goals.",
     "cta": "Let's get in touch",
     "copyright": "Copyright © 2025 Dennis Lee"
+  },
+  "ProjectCategories": {
+    "ai-security": {
+      "name": "AI & Security",
+      "desc": "Trust gateways, agentic defense, RAG and post-quantum readiness."
+    },
+    "web3-fintech": {
+      "name": "Web3 & Fintech",
+      "desc": "Exchanges, zero-knowledge proofs, carbon markets and payment sandboxes."
+    },
+    "quantum-simulation": {
+      "name": "Quantum & Simulation",
+      "desc": "Quantum circuits as a service, digital twins and scenario simulators."
+    },
+    "business-platforms": {
+      "name": "Business Platforms",
+      "desc": "Production SaaS for buildings, venues, public data and brands."
+    },
+    "developer-tools": {
+      "name": "Developer Tools",
+      "desc": "Component libraries and hardware lab workbenches."
+    },
+    "labs-experiments": {
+      "name": "Labs & Experiments",
+      "desc": "Smaller builds exploring DAOs, edge AI and learning tools."
+    }
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "subtitle": "36 projects grouped by what they were built for.",
+    "backToProjects": "All projects",
+    "backHome": "Back to home",
+    "notFound": "Category not found."
   }
 }

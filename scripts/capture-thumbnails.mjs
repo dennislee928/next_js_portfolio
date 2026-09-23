@@ -49,6 +49,8 @@ async function capture(context, project) {
       timeout: NAVIGATION_TIMEOUT_MS,
     });
     await page.waitForTimeout(SETTLE_MS);
+    // Some pages restore a previous scroll position; always frame the top.
+    await page.evaluate(() => window.scrollTo(0, 0));
     await page.screenshot({ path: outputPath, type: "jpeg", quality: 82 });
     return { slug: project.slug, status: "captured" };
   } catch (error) {

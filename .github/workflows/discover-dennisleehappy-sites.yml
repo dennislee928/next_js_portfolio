@@ -12,7 +12,7 @@ jobs:
   discover:
     name: Refresh domain discovery report
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
@@ -31,4 +31,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dennisleehappy-site-discovery
-          path: data/site-discovery-report.json
+          path: |
+            data/site-discovery-report.json
+            data/known-hosts.json

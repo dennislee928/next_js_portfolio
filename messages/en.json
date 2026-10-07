@@ -39,15 +39,16 @@
   },
   "Projects": {
     "heading": "A small selection of my <highlight>recent</highlight> projects",
-    "subheading": "Three highlights from 36 live projects across dennisleehappy.org and zekequiskitz.dpdns.org. Browse the rest by what they were built for.",
+    "subheading": "Three highlights from 39 live projects across dennisleehappy.org and zekequiskitz.dpdns.org. Browse the rest by what they were built for.",
     "browseByCategory": "Browse by category",
     "liveSite": "Live Site",
     "viewDemo": "View Demo",
     "repository": "Repository",
+    "marketplace": "View on Marketplace",
     "ztnaBadge": "Cloudflare Access",
     "featuredBadge": "Highlight",
     "gatedNote": "Sign-in required — published behind Cloudflare Access to demonstrate ZTNA policy enforcement.",
-    "viewAll": "View all 36 projects",
+    "viewAll": "View all 39 projects",
     "projectCount": "{count} projects",
     "items": {
       "inclusive-ai-trust-gateway": {
@@ -174,6 +175,18 @@
         "title": "Qu-Lab",
         "desc": "Quasar-based laboratory workspace for experimenting with cross-platform UI builds."
       },
+      "jest-security-extension-guard": {
+        "title": "Jest Security Extension Guard",
+        "desc": "GitHub Action that scans the VS Code extensions recommended in a pull request, scores 157 security vectors and blocks risky or withdrawn extensions before they reach the team."
+      },
+      "vscode-security-extension-pack": {
+        "title": "Security & Systems Engineering Pack",
+        "desc": "Four extensions published to the Visual Studio Marketplace as jest-test-team: endpoint security and compliance, Julia compiler profiling, embedded hardware security, and the pack that installs them together."
+      },
+      "jest-ide-extension-monorepo": {
+        "title": "Jest IDE Extension Suite",
+        "desc": "The TypeScript monorepo behind the published extensions: a declarative tree-sitter rule engine, a shared core package, SARIF export and four CLIs for CI pipelines."
+      },
       "ielts-writing-error-tester": {
         "title": "IELTS Writing Error Tester",
         "desc": "Interactive drills that surface and explain common IELTS writing mistakes."
@@ -263,6 +276,10 @@
       "name": "Developer Tools",
       "desc": "Component libraries and hardware lab workbenches."
     },
+    "extensions-plugins": {
+      "name": "Extensions & Plugins",
+      "desc": "VS Code extensions, GitHub Actions and editor tooling published to public marketplaces."
+    },
     "labs-experiments": {
       "name": "Labs & Experiments",
       "desc": "Smaller builds exploring DAOs, edge AI and learning tools."
@@ -270,7 +287,7 @@
   },
   "ProjectsPage": {
     "title": "Projects",
-    "subtitle": "36 projects grouped by what they were built for.",
+    "subtitle": "39 projects grouped by what they were built for.",
     "backToProjects": "All projects",
     "backHome": "Back to home",
     "notFound": "Category not found."

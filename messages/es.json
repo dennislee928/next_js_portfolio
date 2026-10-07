@@ -39,15 +39,16 @@
   },
   "Projects": {
     "heading": "Una pequeña selección de mis proyectos <highlight>recientes</highlight>",
-    "subheading": "Tres destacados de 36 proyectos en línea en dennisleehappy.org y zekequiskitz.dpdns.org. Explora el resto según para qué se construyeron.",
+    "subheading": "Tres destacados de 39 proyectos en línea en dennisleehappy.org y zekequiskitz.dpdns.org. Explora el resto según para qué se construyeron.",
     "browseByCategory": "Explorar por categoría",
     "liveSite": "Ver sitio",
     "viewDemo": "Ver demo",
     "repository": "Repositorio",
+    "marketplace": "Ver en el Marketplace",
     "ztnaBadge": "Cloudflare Access",
     "featuredBadge": "Destacado",
     "gatedNote": "Requiere inicio de sesión — publicado tras Cloudflare Access para demostrar la aplicación de políticas ZTNA.",
-    "viewAll": "Ver los 36 proyectos",
+    "viewAll": "Ver los 39 proyectos",
     "projectCount": "{count} proyectos",
     "items": {
       "inclusive-ai-trust-gateway": {
@@ -174,6 +175,18 @@
         "title": "Qu-Lab",
         "desc": "Espacio de laboratorio basado en Quasar para experimentar con builds de interfaz multiplataforma."
       },
+      "jest-security-extension-guard": {
+        "title": "Jest Security Extension Guard",
+        "desc": "GitHub Action que analiza las extensiones de VS Code recomendadas en un pull request, puntúa 157 vectores de seguridad y bloquea las extensiones riesgosas o retiradas antes de que lleguen al equipo."
+      },
+      "vscode-security-extension-pack": {
+        "title": "Pack de seguridad e ingeniería de sistemas",
+        "desc": "Cuatro extensiones publicadas en el Visual Studio Marketplace como jest-test-team: seguridad y cumplimiento de endpoints, perfilado del compilador de Julia, seguridad de hardware embebido y el pack que las instala juntas."
+      },
+      "jest-ide-extension-monorepo": {
+        "title": "Suite de extensiones IDE de Jest",
+        "desc": "El monorepo de TypeScript detrás de las extensiones publicadas: un motor de reglas declarativo con tree-sitter, un paquete core compartido, exportación SARIF y cuatro CLIs para pipelines de CI."
+      },
       "ielts-writing-error-tester": {
         "title": "Test de errores de writing IELTS",
         "desc": "Ejercicios interactivos que detectan y explican los errores habituales de writing en IELTS."
@@ -263,6 +276,10 @@
       "name": "Herramientas para desarrolladores",
       "desc": "Bibliotecas de componentes y bancos de trabajo para laboratorio de hardware."
     },
+    "extensions-plugins": {
+      "name": "Extensiones y plugins",
+      "desc": "Extensiones de VS Code, GitHub Actions y herramientas de editor publicadas en marketplaces públicos."
+    },
     "labs-experiments": {
       "name": "Laboratorio y experimentos",
       "desc": "Proyectos más pequeños que exploran DAOs, IA en el edge y herramientas de aprendizaje."
@@ -270,7 +287,7 @@
   },
   "ProjectsPage": {
     "title": "Proyectos",
-    "subtitle": "36 proyectos agrupados según para qué se construyeron.",
+    "subtitle": "39 proyectos agrupados según para qué se construyeron.",
     "backToProjects": "Todos los proyectos",
     "backHome": "Volver al inicio",
     "notFound": "Categoría no encontrada."

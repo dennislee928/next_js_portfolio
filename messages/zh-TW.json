@@ -39,15 +39,16 @@
   },
   "Projects": {
     "heading": "精選的<highlight>近期</highlight>作品",
-    "subheading": "從 dennisleehappy.org 與 zekequiskitz.dpdns.org 上 36 個線上作品中挑出的三個亮點，其餘依用途分類瀏覽。",
+    "subheading": "從 dennisleehappy.org 與 zekequiskitz.dpdns.org 上 39 個線上作品中挑出的三個亮點，其餘依用途分類瀏覽。",
     "browseByCategory": "依分類瀏覽",
     "liveSite": "前往網站",
     "viewDemo": "觀看示範",
     "repository": "程式碼儲存庫",
+    "marketplace": "前往市集",
     "ztnaBadge": "Cloudflare Access",
     "featuredBadge": "精選",
     "gatedNote": "需登入 — 部署於 Cloudflare Access 之後，用以展示 ZTNA 政策實施。",
-    "viewAll": "瀏覽全部 36 個作品",
+    "viewAll": "瀏覽全部 39 個作品",
     "projectCount": "{count} 個作品",
     "items": {
       "inclusive-ai-trust-gateway": {
@@ -174,6 +175,18 @@
         "title": "Qu-Lab",
         "desc": "以 Quasar 打造的實驗工作區，用於試驗跨平台 UI 建置。"
       },
+      "jest-security-extension-guard": {
+        "title": "Jest Security Extension Guard",
+        "desc": "GitHub Action，在 Pull Request 階段掃描被推薦的 VS Code 擴充套件，以 157 項安全指標評分，在有風險或已下架的擴充套件進入團隊前先行阻擋。"
+      },
+      "vscode-security-extension-pack": {
+        "title": "安全與系統工程擴充套件組",
+        "desc": "以 jest-test-team 身分發布於 Visual Studio Marketplace 的四個擴充套件：端點安全與合規、Julia 編譯器剖析、嵌入式硬體安全，以及一次安裝三者的擴充套件組。"
+      },
+      "jest-ide-extension-monorepo": {
+        "title": "Jest IDE 擴充套件原始碼庫",
+        "desc": "支撐已發布擴充套件的 TypeScript monorepo：以 tree-sitter 查詢撰寫的宣告式規則引擎、共用核心套件、SARIF 匯出，以及四支可用於 CI 流程的 CLI。"
+      },
       "ielts-writing-error-tester": {
         "title": "IELTS 寫作錯誤測驗",
         "desc": "以互動練習找出並解析 IELTS 寫作常見錯誤。"
@@ -263,6 +276,10 @@
       "name": "開發者工具",
       "desc": "元件庫與硬體實驗工作臺。"
     },
+    "extensions-plugins": {
+      "name": "擴充套件與外掛",
+      "desc": "發布到公開市集的 VS Code 擴充套件、GitHub Actions 與編輯器工具。"
+    },
     "labs-experiments": {
       "name": "實驗室與實驗作品",
       "desc": "探索 DAO、邊緣 AI 與學習工具的小型作品。"
@@ -270,7 +287,7 @@
   },
   "ProjectsPage": {
     "title": "作品集",
-    "subtitle": "依用途分類的 36 個作品。",
+    "subtitle": "依用途分類的 39 個作品。",
     "backToProjects": "全部作品",
     "backHome": "回到首頁",
     "notFound": "找不到這個分類。"

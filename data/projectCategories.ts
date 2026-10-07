@@ -1,5 +1,5 @@
 /**
- * The six buckets the Projects dropdown and the /projects sub-pages are built
+ * The seven buckets the Projects dropdown and the /projects sub-pages are built
  * from. Ordering here is the ordering everywhere: nav, index page, chips.
  */
 export type ProjectCategorySlug =
@@ -8,6 +8,7 @@ export type ProjectCategorySlug =
   | "quantum-simulation"
   | "business-platforms"
   | "developer-tools"
+  | "extensions-plugins"
   | "labs-experiments";
 
 export type ProjectCategory = {
@@ -22,6 +23,7 @@ export const projectCategories: ProjectCategory[] = [
   { slug: "quantum-simulation", accent: "#f472b6" },
   { slug: "business-platforms", accent: "#34d399" },
   { slug: "developer-tools", accent: "#fbbf24" },
+  { slug: "extensions-plugins", accent: "#60a5fa" },
   { slug: "labs-experiments", accent: "#a78bfa" },
 ];
 

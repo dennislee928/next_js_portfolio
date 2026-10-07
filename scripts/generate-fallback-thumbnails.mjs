@@ -20,6 +20,7 @@ const CATEGORY_ACCENTS = {
   "quantum-simulation": "#f472b6",
   "business-platforms": "#34d399",
   "developer-tools": "#fbbf24",
+  "extensions-plugins": "#60a5fa",
   "labs-experiments": "#a78bfa",
 };
 
@@ -106,14 +107,18 @@ async function main() {
     project.thumbnail.endsWith(".svg"),
   );
 
+  const LABELS = { ztna: "Cloudflare Access", marketplace: "Marketplace", repo: "Repository" };
+
   for (const project of projects) {
     const title = items[project.slug]?.title ?? project.slug;
-    const isGated = project.badge === "ztna";
+    // Repository-only work is named by its repo; anything with a page by its host.
+    const subtitle =
+      project.badge === "repo" ? project.repo ?? "" : new URL(project.link).host;
 
     const svg = buildCard({
       title,
-      label: isGated ? "Cloudflare Access" : "Repository",
-      subtitle: isGated ? new URL(project.link).host : project.repo ?? "",
+      label: LABELS[project.badge] ?? "Repository",
+      subtitle,
       accent: CATEGORY_ACCENTS[project.category] ?? "#8b5cf6",
     });
 

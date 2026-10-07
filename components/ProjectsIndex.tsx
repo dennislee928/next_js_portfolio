@@ -7,7 +7,7 @@ import ProjectCard from "@/components/ProjectCard";
 import { projectsByCategory } from "@/data/projects";
 import { projectCategories } from "@/data/projectCategories";
 
-/** Every project, grouped under the six purpose categories. */
+/** Every project, grouped under the seven purpose categories. */
 const ProjectsIndex = () => {
   const t = useTranslations("ProjectsPage");
   const tCategories = useTranslations("ProjectCategories");

@@ -13,7 +13,7 @@ export type Project = {
   /** Surfaced on the homepage as one of the three highlight blocks. */
   featured?: boolean;
   /** Shown as a badge; used for the Cloudflare Access entry. */
-  badge?: "ztna" | "repo";
+  badge?: "ztna" | "repo" | "marketplace";
   repo?: string;
   demoVideo?: string;
 };
@@ -288,6 +288,36 @@ export const projects: Project[] = [
     captureUrl: "https://qu-lab.dennisleehappy.org/",
     thumbnail: THUMB("qu-lab"),
     iconLists: ["/vue.svg", "/ts.svg"],
+  },
+
+  /* --------------------------------------------- Extensions & Plugins */
+  {
+    slug: "jest-security-extension-guard",
+    category: "extensions-plugins",
+    link: "https://github.com/marketplace/actions/jest-security-extension-guard",
+    captureUrl: "https://github.com/marketplace/actions/jest-security-extension-guard",
+    thumbnail: THUMB("jest-security-extension-guard"),
+    iconLists: ["/github.svg", "/ts.svg"],
+    badge: "marketplace",
+    repo: "Jest-Test-Team/ide-extension",
+  },
+  {
+    slug: "vscode-security-extension-pack",
+    category: "extensions-plugins",
+    link: "https://marketplace.visualstudio.com/publishers/jest-test-team",
+    captureUrl: "https://marketplace.visualstudio.com/items?itemName=jest-test-team.security-pack",
+    thumbnail: THUMB("vscode-security-extension-pack"),
+    iconLists: ["/ts.svg", "/github.svg"],
+    badge: "marketplace",
+  },
+  {
+    slug: "jest-ide-extension-monorepo",
+    category: "extensions-plugins",
+    link: "https://github.com/Jest-Test-Team/ide-extension",
+    thumbnail: THUMB("jest-ide-extension-monorepo", "svg"),
+    iconLists: ["/github.svg", "/ts.svg", "/c.svg"],
+    badge: "repo",
+    repo: "Jest-Test-Team/ide-extension",
   },
 
   /* ------------------------------------------------ Labs & Experiments */

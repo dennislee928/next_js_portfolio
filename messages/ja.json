@@ -39,15 +39,16 @@
   },
   "Projects": {
     "heading": "厳選した<highlight>最近</highlight>のプロジェクト",
-    "subheading": "dennisleehappy.org と zekequiskitz.dpdns.org で公開中の 36 件から選んだ 3 つのハイライト。残りは目的別にご覧ください。",
+    "subheading": "dennisleehappy.org と zekequiskitz.dpdns.org で公開中の 39 件から選んだ 3 つのハイライト。残りは目的別にご覧ください。",
     "browseByCategory": "カテゴリーで見る",
     "liveSite": "サイトを開く",
     "viewDemo": "デモを見る",
     "repository": "リポジトリ",
+    "marketplace": "マーケットプレイスで見る",
     "ztnaBadge": "Cloudflare Access",
     "featuredBadge": "ハイライト",
     "gatedNote": "サインインが必要 — ZTNA ポリシーの適用を示すため Cloudflare Access の背後に公開しています。",
-    "viewAll": "36 件すべてを見る",
+    "viewAll": "39 件すべてを見る",
     "projectCount": "{count} 件",
     "items": {
       "inclusive-ai-trust-gateway": {
@@ -174,6 +175,18 @@
         "title": "Qu-Lab",
         "desc": "クロスプラットフォーム UI ビルドを試すための Quasar ベースの実験ワークスペース。"
       },
+      "jest-security-extension-guard": {
+        "title": "Jest Security Extension Guard",
+        "desc": "プルリクエストで推奨された VS Code 拡張機能を走査し、157 項目のセキュリティ指標でスコア付けして、危険な拡張機能や公開停止済みの拡張機能がチームに届く前にブロックする GitHub Action。"
+      },
+      "vscode-security-extension-pack": {
+        "title": "セキュリティ・システムエンジニアリング パック",
+        "desc": "jest-test-team として Visual Studio Marketplace で公開している 4 つの拡張機能：エンドポイントセキュリティとコンプライアンス、Julia コンパイラーのプロファイリング、組込みハードウェアセキュリティ、そしてそれらを一括導入するパック。"
+      },
+      "jest-ide-extension-monorepo": {
+        "title": "Jest IDE 拡張機能スイート",
+        "desc": "公開中の拡張機能を支える TypeScript モノレポ：tree-sitter クエリによる宣言的ルールエンジン、共有コアパッケージ、SARIF 出力、CI パイプライン向けの 4 つの CLI。"
+      },
       "ielts-writing-error-tester": {
         "title": "IELTS ライティング誤り診断",
         "desc": "IELTS ライティングでよくある誤りを洗い出して解説するインタラクティブ演習。"
@@ -263,6 +276,10 @@
       "name": "開発者ツール",
       "desc": "コンポーネントライブラリとハードウェアラボのワークベンチ。"
     },
+    "extensions-plugins": {
+      "name": "拡張機能とプラグイン",
+      "desc": "公開マーケットプレイスで配布している VS Code 拡張機能、GitHub Actions、エディター向けツール。"
+    },
     "labs-experiments": {
       "name": "ラボと実験",
       "desc": "DAO、エッジ AI、学習ツールを探る小規模なプロジェクト。"
@@ -270,7 +287,7 @@
   },
   "ProjectsPage": {
     "title": "プロジェクト",
-    "subtitle": "目的別に分類した 36 件のプロジェクト。",
+    "subtitle": "目的別に分類した 39 件のプロジェクト。",
     "backToProjects": "すべてのプロジェクト",
     "backHome": "ホームへ戻る",
     "notFound": "カテゴリーが見つかりません。"

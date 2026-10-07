@@ -24,9 +24,11 @@ const ProjectCard = ({ project, showCategory = false }: ProjectCardProps) => {
     ? t("liveSite")
     : project.badge === "repo"
       ? t("repository")
-      : project.demoVideo && project.demoVideo !== project.link
-        ? t("viewDemo")
-        : t("liveSite");
+      : project.badge === "marketplace"
+        ? t("marketplace")
+        : project.demoVideo && project.demoVideo !== project.link
+          ? t("viewDemo")
+          : t("liveSite");
 
   return (
     <a
